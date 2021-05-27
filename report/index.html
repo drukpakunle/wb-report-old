@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" type="image/png" href="./static/favicon.ico" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+    <title>Allure Reports History</title>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="./static/logo.png" />
+        <div class="newTestRun">
+            <button type="button" class="btn-run" id="newTestRunButton">
+                <span class="glyphicon glyphicon-play" style="top: 2px !important;"></span> Run Tests</span>
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span id="alertMessage"></span>
+        </div>
+        <div class="newTestRunModal">
+            <div class="modal fade" id="newTestRunModal" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4>Create New Test Run</h4>
+                        </div>
+                        <div class="modal-body" style="padding:15px 50px;">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="group">Groups</label>
+                                    <span id="groupSelector"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="suite">Suite</label>
+                                    <span id="suiteSelector"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="branch">Branch</label>
+                                    <span id="branchSelector"></span>
+                                </div>
+                                <div class="form-group url">
+                                    <label class="lbl-inline" for="url"></label>
+                                </div>
+                                <div class="form-group overrideHost">
+                                    <label class="lbl-inline" for="overrideHost">Use Host Overriding</label>
+                                    <input type="checkbox" checked="true" id="overrideHostCheckBox" />
+                                    <input id="ipField" type="text" class="form-control" value="10.10.41.149" />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" id="runTests" class="btn btn-success btn-block" style="padding:10px;"> Start</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <table border="1">
+            <tr>
+                <th>Locale</th>
+                <th>App Version</th>
+                <th>DateTime</th>
+                <th>HTML Report</th>
+                <th>Pipeline</th>
+                <th>Tests Groups</th>
+                <th>Environment URL</th>
+                <th>Host Override</th>
+                <th>Device</th>
+                <th>Trigger</th>
+                <th>All Params</th>
+            </tr>
+            <tr id="list"></tr>
+        </table>
+    </div>
+</body>
+
+</html>
