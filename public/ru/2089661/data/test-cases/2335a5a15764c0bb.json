@@ -1,0 +1,1498 @@
+{
+  "uid" : "2335a5a15764c0bb",
+  "name" : "Перенести товар из отложенных в корзину, используя мультиселект",
+  "fullName" : "ru.wildberries.tests.poned.CommonPonedTest.addToBasketFromPonedUsingMultiselect",
+  "historyId" : "8f3ce763ad6f7e39d3d75c89ab5c7d2e",
+  "time" : {
+    "start" : 1622182122678,
+    "stop" : 1622182147090,
+    "duration" : 24412
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622182105566,
+      "stop" : 1622182122676,
+      "duration" : 17110
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622182106399,
+        "stop" : 1622182122676,
+        "duration" : 16277
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622182106399,
+          "stop" : 1622182116222,
+          "duration" : 9823
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login with User: User(countryCode=7, phone=8000010000)",
+          "time" : {
+            "start" : 1622182106399,
+            "stop" : 1622182111201,
+            "duration" : 4802
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу Авторизации",
+            "time" : {
+              "start" : 1622182106399,
+              "stop" : 1622182108868,
+              "duration" : 2469
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Открыть страницу: /security/login",
+              "time" : {
+                "start" : 1622182106399,
+                "stop" : 1622182108616,
+                "duration" : 2217
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Открыть страницу: https://www.wildberries.ru/security/login",
+                "time" : {
+                  "start" : 1622182106399,
+                  "stop" : 1622182107490,
+                  "duration" : 1091
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "url",
+                  "value" : "https://www.wildberries.ru/security/login"
+                } ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622182108298,
+                  "stop" : 1622182108412,
+                  "duration" : 114
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622182108482,
+                  "stop" : 1622182108560,
+                  "duration" : 78
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "siteRoute",
+                "value" : "LOGIN"
+              } ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622182108617,
+                "stop" : 1622182108693,
+                "duration" : 76
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622182108745,
+                "stop" : 1622182108816,
+                "duration" : 71
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 6,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести номер телефона: 8000010000",
+            "time" : {
+              "start" : 1622182108868,
+              "stop" : 1622182110667,
+              "duration" : 1799
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622182110184,
+                "stop" : 1622182110519,
+                "duration" : 335
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622182110576,
+                "stop" : 1622182110610,
+                "duration" : 34
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "phoneNumber",
+              "value" : "8000010000"
+            } ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести СМС код: 3755",
+            "time" : {
+              "start" : 1622182110667,
+              "stop" : 1622182111201,
+              "duration" : 534
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "smsCode",
+              "value" : "3755"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "User(countryCode=7, phone=8000010000)"
+          } ],
+          "stepsCount" : 11,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622182116222,
+          "stop" : 1622182122676,
+          "duration" : 6454
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.poned.CommonPonedTest.addToBasketFromPonedUsingMultiselect()"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=CommonPonedTest.addToBasketFromPonedUsingMultiselect()[pri:0, instance:ru.wildberries.tests.poned.CommonPonedTest@2e0652ab] output={null}]"
+      } ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Добавить товары: '[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=9028775)]' в отложенные",
+      "time" : {
+        "start" : 1622182122694,
+        "stop" : 1622182124716,
+        "duration" : 2022
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу 'Отложенные'",
+        "time" : {
+          "start" : 1622182123593,
+          "stop" : 1622182124716,
+          "duration" : 1123
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru/lk/poned",
+          "time" : {
+            "start" : 1622182123594,
+            "stop" : 1622182124716,
+            "duration" : 1122
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу: https://www.wildberries.ru/lk/poned",
+            "time" : {
+              "start" : 1622182123594,
+              "stop" : 1622182124502,
+              "duration" : 908
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://www.wildberries.ru/lk/poned"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ожидание загрузки страницы 'Отложенные'",
+            "time" : {
+              "start" : 1622182124504,
+              "stop" : 1622182124555,
+              "duration" : 51
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Ожидание загрузки страницы 'Отложенные'",
+            "time" : {
+              "start" : 1622182124626,
+              "stop" : 1622182124661,
+              "duration" : 35
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru/lk/poned"
+          }, {
+            "name" : "pageClass",
+            "value" : "class ru.wildberries.pages.poned.PonedPage"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "catalogItemList",
+        "value" : "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=9028775)]"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать все товары",
+      "time" : {
+        "start" : 1622182124716,
+        "stop" : 1622182124923,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Перенести в корзину",
+      "time" : {
+        "start" : 1622182124923,
+        "stop" : 1622182125662,
+        "duration" : 739
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182124987,
+          "stop" : 1622182125014,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182124987,
+            "stop" : 1622182125014,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182125172,
+          "stop" : 1622182125187,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182125172,
+            "stop" : 1622182125187,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Диалоговое окно'",
+        "time" : {
+          "start" : 1622182125201,
+          "stop" : 1622182125256,
+          "duration" : 55
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182125208,
+            "stop" : 1622182125221,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182125208,
+              "stop" : 1622182125221,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182125256,
+          "stop" : 1622182125270,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182125257,
+            "stop" : 1622182125270,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182125303,
+          "stop" : 1622182125317,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182125303,
+            "stop" : 1622182125317,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Диалоговое окно'",
+        "time" : {
+          "start" : 1622182125331,
+          "stop" : 1622182125377,
+          "duration" : 46
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182125337,
+            "stop" : 1622182125351,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182125337,
+              "stop" : 1622182125351,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Нажать 'Confirm' в диалоговом окне",
+        "time" : {
+          "start" : 1622182125377,
+          "stop" : 1622182125470,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182125377,
+            "stop" : 1622182125391,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Number of Actions Buttons on Popup must be two"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Отложенные'",
+        "time" : {
+          "start" : 1622182125472,
+          "stop" : 1622182125506,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Отложенные'",
+        "time" : {
+          "start" : 1622182125575,
+          "stop" : 1622182125607,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 18,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список отложенных товаров",
+      "time" : {
+        "start" : 1622182125662,
+        "stop" : 1622182125770,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дождаться элементов коллекции 'Отложенные'",
+        "time" : {
+          "start" : 1622182125663,
+          "stop" : 1622182125707,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "list",
+          "value" : "Отложенные"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Дождаться размера коллекции '1' элемента(ов)",
+      "time" : {
+        "start" : 1622182125770,
+        "stop" : 1622182126192,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дождаться размера коллекции '1' элемента(ов)",
+        "time" : {
+          "start" : 1622182125770,
+          "stop" : 1622182126192,
+          "duration" : 422
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "1"
+        }, {
+          "name" : "list",
+          "value" : "Отложенные"
+        }, {
+          "name" : "errorMessage",
+          "value" : "Размер коллекции элементов не равен ожидаемому"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "size",
+        "value" : "1"
+      }, {
+        "name" : "list",
+        "value" : "Отложенные"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список отложенных товаров, как объектов каталога",
+      "time" : {
+        "start" : 1622182126193,
+        "stop" : 1622182128620,
+        "duration" : 2427
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить список отложенных товаров",
+        "time" : {
+          "start" : 1622182126193,
+          "stop" : 1622182126279,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться элементов коллекции 'Отложенные'",
+          "time" : {
+            "start" : 1622182126193,
+            "stop" : 1622182126219,
+            "duration" : 26
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "list",
+            "value" : "Отложенные"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что список товаров: '[CatalogItem(vendorCode=9028775)]' идентичен списку товаров: '[CatalogItem(vendorCode=9028775)]'",
+      "time" : {
+        "start" : 1622182128620,
+        "stop" : 1622182128620,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Количество товаров должно быть: '1'",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182128620,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Количество товаров должно быть: '1'"
+        }, {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Сортировать список товаров [[CatalogItem(vendorCode=9028775)]] по артикулу",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182128620,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "catalogItemList",
+          "value" : "[CatalogItem(vendorCode=9028775)]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Сортировать список товаров [[CatalogItem(vendorCode=9028775)]] по артикулу",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182128620,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "catalogItemList",
+          "value" : "[CatalogItem(vendorCode=9028775)]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Артикул",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182128620,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Артикул"
+        }, {
+          "name" : "actual",
+          "value" : "9028775"
+        }, {
+          "name" : "expected",
+          "value" : "9028775"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Бренд",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182128620,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Бренд"
+        }, {
+          "name" : "actual",
+          "value" : "PROFFI"
+        }, {
+          "name" : "expected",
+          "value" : "PROFFI"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Количество",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182128620,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Количество"
+        }, {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[CatalogItem(vendorCode=9028775)]"
+      }, {
+        "name" : "expected",
+        "value" : "[CatalogItem(vendorCode=9028775)]"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в корзину",
+      "time" : {
+        "start" : 1622182128620,
+        "stop" : 1622182146682,
+        "duration" : 18062
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перейти в корзину",
+        "time" : {
+          "start" : 1622182128620,
+          "stop" : 1622182146682,
+          "duration" : 18062
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+          "time" : {
+            "start" : 1622182133749,
+            "stop" : 1622182140182,
+            "duration" : 6433
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+          "time" : {
+            "start" : 1622182140220,
+            "stop" : 1622182146630,
+            "duration" : 6410
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить коллекцию товаров в корзине",
+      "time" : {
+        "start" : 1622182146682,
+        "stop" : 1622182147089,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить коллекцию карточек товара в корзине",
+        "time" : {
+          "start" : 1622182146683,
+          "stop" : 1622182146705,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться элементов коллекции 'Коллекция товаров в корзине'",
+          "time" : {
+            "start" : 1622182146683,
+            "stop" : 1622182146704,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "list",
+            "value" : "Коллекция товаров в корзине"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Получить бренд товара",
+        "time" : {
+          "start" : 1622182146717,
+          "stop" : 1622182146761,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Получить название товара",
+        "time" : {
+          "start" : 1622182146761,
+          "stop" : 1622182146799,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Получить MultiPrice",
+        "time" : {
+          "start" : 1622182146799,
+          "stop" : 1622182146956,
+          "duration" : 157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Получить артикул",
+        "time" : {
+          "start" : 1622182146956,
+          "stop" : 1622182147005,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Получить количество",
+        "time" : {
+          "start" : 1622182147005,
+          "stop" : 1622182147089,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что список товаров: '[CatalogItem(vendorCode=4288666)]' идентичен списку товаров: '[CatalogItem(vendorCode=4288666)]'",
+      "time" : {
+        "start" : 1622182147089,
+        "stop" : 1622182147090,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Количество товаров должно быть: '1'",
+        "time" : {
+          "start" : 1622182147089,
+          "stop" : 1622182147089,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Количество товаров должно быть: '1'"
+        }, {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Сортировать список товаров [[CatalogItem(vendorCode=4288666)]] по артикулу",
+        "time" : {
+          "start" : 1622182147089,
+          "stop" : 1622182147089,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "catalogItemList",
+          "value" : "[CatalogItem(vendorCode=4288666)]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Сортировать список товаров [[CatalogItem(vendorCode=4288666)]] по артикулу",
+        "time" : {
+          "start" : 1622182147089,
+          "stop" : 1622182147089,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "catalogItemList",
+          "value" : "[CatalogItem(vendorCode=4288666)]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Артикул",
+        "time" : {
+          "start" : 1622182147089,
+          "stop" : 1622182147090,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Артикул"
+        }, {
+          "name" : "actual",
+          "value" : "4288666"
+        }, {
+          "name" : "expected",
+          "value" : "4288666"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Бренд",
+        "time" : {
+          "start" : 1622182147090,
+          "stop" : 1622182147090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Бренд"
+        }, {
+          "name" : "actual",
+          "value" : "Bioaqua"
+        }, {
+          "name" : "expected",
+          "value" : "Bioaqua"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Количество",
+        "time" : {
+          "start" : 1622182147090,
+          "stop" : 1622182147090,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Количество"
+        }, {
+          "name" : "actual",
+          "value" : "1"
+        }, {
+          "name" : "expected",
+          "value" : "1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[CatalogItem(vendorCode=4288666)]"
+      }, {
+        "name" : "expected",
+        "value" : "[CatalogItem(vendorCode=4288666)]"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 59,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622182147094,
+      "stop" : 1622182147224,
+      "duration" : 130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622182147094,
+        "stop" : 1622182147094,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=addToBasketFromPonedUsingMultiselect status=SUCCESS method=CommonPonedTest.addToBasketFromPonedUsingMultiselect()[pri:0, instance:ru.wildberries.tests.poned.CommonPonedTest@2e0652ab] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.poned.CommonPonedTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.poned.CommonPonedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToBasketFromPonedUsingMultiselect"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Отложенные"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.poned.CommonPonedTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Common Poned"
+  }, {
+    "name" : "feature",
+    "value" : "Poned"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2335a5a15764c0bb.json",
+  "parameterValues" : [ ]
+}

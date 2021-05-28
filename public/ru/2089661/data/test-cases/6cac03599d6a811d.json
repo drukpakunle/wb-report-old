@@ -1,0 +1,600 @@
+{
+  "uid" : "6cac03599d6a811d",
+  "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+  "fullName" : "ru.wildberries.tests.redirects.RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin",
+  "historyId" : "9a34e368a1fa0f81bcbe8528dccbd115",
+  "time" : {
+    "start" : 1622183443913,
+    "stop" : 1622183462654,
+    "duration" : 18741
+  },
+  "status" : "broken",
+  "statusMessage" : "No SiteRoute with Route: /lk/myrefunds found",
+  "statusTrace" : "java.lang.IllegalArgumentException: No SiteRoute with Route: /lk/myrefunds found\n\tat ru.wildberries.enums.routing.SiteRoute.lambda$get$1(SiteRoute.java:82)\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:408)\n\tat ru.wildberries.enums.routing.SiteRoute.get(SiteRoute.java:82)\n\tat ru.wildberries.enums.routing.SiteRoute.getFromUrl(SiteRoute.java:74)\n\tat ru.wildberries.htmlelements.utils.PageUtils.getPageByUrl(PageUtils.java:74)\n\tat ru.wildberries.htmlelements.utils.PageUtils.getCurrentPage(PageUtils.java:44)\n\tat ru.wildberries.pages.desktop.DesktopPage.navigateToMobileSite(DesktopPage.java:31)\n\tat ru.wildberries.tests.redirects.RedirectsTest.checkDesktopToMobileRedirects(RedirectsTest.java:18)\n\tat ru.wildberries.tests.redirects.RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin(RedirectsWithAuthTest.java:38)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622183442984,
+      "stop" : 1622183443910,
+      "duration" : 926
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622183443910,
+        "stop" : 1622183443910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622183443910,
+          "stop" : 1622183443910,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=DESKTOP)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622183443910,
+          "stop" : 1622183443910,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=DESKTOP)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.redirects.RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin(ru.wildberries.models.redirects.RedirectRule)"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin(ru.wildberries.models.redirects.RedirectRule)[pri:0, instance:ru.wildberries.tests.redirects.RedirectsWithAuthTest@1f1fbc9f] output={null}]"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "No SiteRoute with Route: /lk/myrefunds found",
+    "statusTrace" : "java.lang.IllegalArgumentException: No SiteRoute with Route: /lk/myrefunds found\n\tat ru.wildberries.enums.routing.SiteRoute.lambda$get$1(SiteRoute.java:82)\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:408)\n\tat ru.wildberries.enums.routing.SiteRoute.get(SiteRoute.java:82)\n\tat ru.wildberries.enums.routing.SiteRoute.getFromUrl(SiteRoute.java:74)\n\tat ru.wildberries.htmlelements.utils.PageUtils.getPageByUrl(PageUtils.java:74)\n\tat ru.wildberries.htmlelements.utils.PageUtils.getCurrentPage(PageUtils.java:44)\n\tat ru.wildberries.pages.desktop.DesktopPage.navigateToMobileSite(DesktopPage.java:31)\n\tat ru.wildberries.tests.redirects.RedirectsTest.checkDesktopToMobileRedirects(RedirectsTest.java:18)\n\tat ru.wildberries.tests.redirects.RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin(RedirectsWithAuthTest.java:38)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+    "steps" : [ {
+      "name" : "Открыть страницу: https://www.wildberries.ru/lk",
+      "time" : {
+        "start" : 1622183443913,
+        "stop" : 1622183444699,
+        "duration" : 786
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://www.wildberries.ru/lk"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть страницу: /lk",
+      "time" : {
+        "start" : 1622183445183,
+        "stop" : 1622183457542,
+        "duration" : 12359
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: /lk",
+        "time" : {
+          "start" : 1622183445183,
+          "stop" : 1622183452293,
+          "duration" : 7110
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru/lk",
+          "time" : {
+            "start" : 1622183445183,
+            "stop" : 1622183446986,
+            "duration" : 1803
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru/lk"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+          "time" : {
+            "start" : 1622183452007,
+            "stop" : 1622183452060,
+            "duration" : 53
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+          "time" : {
+            "start" : 1622183452121,
+            "stop" : 1622183452152,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+          "time" : {
+            "start" : 1622183452203,
+            "stop" : 1622183452233,
+            "duration" : 30
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "siteRoute",
+          "value" : "ACCOUNT"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+        "time" : {
+          "start" : 1622183457313,
+          "stop" : 1622183457338,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+        "time" : {
+          "start" : 1622183457388,
+          "stop" : 1622183457414,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+        "time" : {
+          "start" : 1622183457459,
+          "stop" : 1622183457489,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "siteRoute",
+        "value" : "ACCOUNT"
+      }, {
+        "name" : "pageClass",
+        "value" : "class ru.wildberries.pages.account.AccountPage"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+      "time" : {
+        "start" : 1622183457676,
+        "stop" : 1622183457837,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+      "time" : {
+        "start" : 1622183458034,
+        "stop" : 1622183458106,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ввести номер телефона: 8000010000",
+      "time" : {
+        "start" : 1622183458158,
+        "stop" : 1622183459883,
+        "duration" : 1725
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+        "time" : {
+          "start" : 1622183459399,
+          "stop" : 1622183459731,
+          "duration" : 332
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+        "time" : {
+          "start" : 1622183459792,
+          "stop" : 1622183459831,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phoneNumber",
+        "value" : "8000010000"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести СМС код: 3755",
+      "time" : {
+        "start" : 1622183459883,
+        "stop" : 1622183460414,
+        "duration" : 531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "smsCode",
+        "value" : "3755"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание загрузки страницы 'Личный кабинет авторизованного пользователя'",
+      "time" : {
+        "start" : 1622183460415,
+        "stop" : 1622183460788,
+        "duration" : 373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидание загрузки страницы 'Личный кабинет авторизованного пользователя'",
+      "time" : {
+        "start" : 1622183460840,
+        "stop" : 1622183460911,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Открыть страницу: https://lk.wildberries.ru/myrefunds",
+      "time" : {
+        "start" : 1622183460973,
+        "stop" : 1622183462095,
+        "duration" : 1122
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://lk.wildberries.ru/myrefunds",
+        "time" : {
+          "start" : 1622183460973,
+          "stop" : 1622183462013,
+          "duration" : 1040
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://lk.wildberries.ru/myrefunds"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Контейнер десктопной версии сайта'",
+        "time" : {
+          "start" : 1622183462013,
+          "stop" : 1622183462066,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Контейнер десктопной версии сайта'",
+        "time" : {
+          "start" : 1622183462066,
+          "stop" : 1622183462095,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://lk.wildberries.ru/myrefunds"
+      }, {
+        "name" : "pageClass",
+        "value" : "class ru.wildberries.pages.desktop.DesktopPage"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что открыта десктопная версия сайта",
+      "time" : {
+        "start" : 1622183462095,
+        "stop" : 1622183462120,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Перейти на мобильную версию сайта",
+      "time" : {
+        "start" : 1622183462120,
+        "stop" : 1622183462653,
+        "duration" : 533
+      },
+      "status" : "broken",
+      "statusMessage" : "No SiteRoute with Route: /lk/myrefunds found",
+      "statusTrace" : "java.lang.IllegalArgumentException: No SiteRoute with Route: /lk/myrefunds found\n\tat ru.wildberries.enums.routing.SiteRoute.lambda$get$1(SiteRoute.java:82)\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:408)\n\tat ru.wildberries.enums.routing.SiteRoute.get(SiteRoute.java:82)\n\tat ru.wildberries.enums.routing.SiteRoute.getFromUrl(SiteRoute.java:74)\n\tat ru.wildberries.htmlelements.utils.PageUtils.getPageByUrl(PageUtils.java:74)\n\tat ru.wildberries.htmlelements.utils.PageUtils.getCurrentPage(PageUtils.java:44)\n\tat ru.wildberries.pages.desktop.DesktopPage.navigateToMobileSite(DesktopPage.java:31)\n\tat ru.wildberries.tests.redirects.RedirectsTest.checkDesktopToMobileRedirects(RedirectsTest.java:18)\n\tat ru.wildberries.tests.redirects.RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin(RedirectsWithAuthTest.java:38)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 24,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622183462655,
+      "stop" : 1622183462832,
+      "duration" : 177
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622183462656,
+        "stop" : 1622183462753,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "613e92c37e392143",
+        "name" : "error-screenshot.png",
+        "source" : "613e92c37e392143.png",
+        "type" : "image/png",
+        "size" : 45798
+      } ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=desktopToMobileRedirectsWithLogin status=FAILURE method=RedirectsWithAuthTest.desktopToMobileRedirectsWithLogin(ru.wildberries.models.redirects.RedirectRule)[pri:0, instance:ru.wildberries.tests.redirects.RedirectsWithAuthTest@1f1fbc9f] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.redirects.RedirectsWithAuthTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.redirects.RedirectsWithAuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "desktopToMobileRedirectsWithLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Редиректы"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.redirects.RedirectsWithAuthTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Redirects"
+  }, {
+    "name" : "story",
+    "value" : "Redirects from Desktop to Mobile with Auth"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myrefunds, mobileUrl=https://www.wildberries.ru/lk)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Infrastructure problems",
+      "matchedStatuses" : [ "broken", "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Test defects",
+      "matchedStatuses" : [ "broken" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6cac03599d6a811d.json",
+  "parameterValues" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myrefunds, mobileUrl=https://www.wildberries.ru/lk)" ]
+}

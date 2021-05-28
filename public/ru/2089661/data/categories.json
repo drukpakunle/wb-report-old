@@ -1,0 +1,417 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Infrastructure problems",
+    "children" : [ {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=90.0.4430.85)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [fae4c00731cccf144808c79405a2ad83, executeScript {script=arguments[0].scrollIntoView({block: \"center\"});, args=[{ELEMENT=ab227057-6c6b-4f54-a331-fe2245b52ee2, element-6066-11e4-a52e-4f735466cecf=ab227057-6c6b-4f54-a331-fe2245b52ee2}]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /tmp/.com.google.Chrome.tDVYbt}, goog:chromeOptions: {debuggerAddress: localhost:42123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: fae4c00731cccf144808c79405a...}\nSession ID: fae4c00731cccf144808c79405a2ad83",
+      "children" : [ {
+        "name" : "Иконка 'В Корзину' на КТ",
+        "uid" : "802079d194ee00ad",
+        "parentUid" : "5a5f6b2cd3d8af9ff52a0a1088ba849d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622182668074,
+          "stop" : 1622182671566,
+          "duration" : 3492
+        },
+        "flaky" : false,
+        "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+      } ],
+      "uid" : "5a5f6b2cd3d8af9ff52a0a1088ba849d"
+    }, {
+      "name" : "Expected condition failed: waiting for ru.wildberries.pages.desktop.DesktopPage$$Lambda$986/0x0000000840987840@395d5cd8 (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "595b3d6379d2f3d6",
+        "parentUid" : "5d5c7f9b2810fe057e7e2d3df52c3778",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183295369,
+          "stop" : 1622183343870,
+          "duration" : 48501
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/communications, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "5d5c7f9b2810fe057e7e2d3df52c3778"
+    }, {
+      "name" : "No SiteRoute with Route: /lk/communications/archive found",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "2819130349949aee",
+        "parentUid" : "7e408a0632c97e4d7bb960347335715d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183344814,
+          "stop" : 1622183363621,
+          "duration" : 18807
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/communications/archive, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "7e408a0632c97e4d7bb960347335715d"
+    }, {
+      "name" : "Expected condition failed: waiting for ru.wildberries.pages.desktop.DesktopPage$$Lambda$986/0x0000000840987840@188506c5 (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "14c40c48c0161f5a",
+        "parentUid" : "e2dd64b407b630b4ed33170f48a2cfdd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183364718,
+          "stop" : 1622183413648,
+          "duration" : 48930
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/claims, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "e2dd64b407b630b4ed33170f48a2cfdd"
+    }, {
+      "name" : "No SiteRoute with Route: /lk/myrefunds found",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "6cac03599d6a811d",
+        "parentUid" : "e43cee74e2bbf61ae6c8915490a948bd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183443913,
+          "stop" : 1622183462654,
+          "duration" : 18741
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myrefunds, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "e43cee74e2bbf61ae6c8915490a948bd"
+    }, {
+      "name" : "Expected condition failed: waiting for ru.wildberries.pages.desktop.DesktopPage$$Lambda$986/0x0000000840987840@6595ef3f (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "9068b55587576033",
+        "parentUid" : "ec72ef51024ea85571dd772f6f2f9d23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183463843,
+          "stop" : 1622183513447,
+          "duration" : 49604
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/refund, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "ec72ef51024ea85571dd772f6f2f9d23"
+    }, {
+      "name" : "expected [https://www.wildberries.ru] but found [https://www.wildberries.ru/]",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "2b8495cdcb181576",
+        "parentUid" : "b94783011257455b8ea82c3c0fd2a039",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183763025,
+          "stop" : 1622183783803,
+          "duration" : 20778
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/presscenter, mobileUrl=https://www.wildberries.ru)" ]
+      }, {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "4fd2f4cc9bedda90",
+        "parentUid" : "b94783011257455b8ea82c3c0fd2a039",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183986885,
+          "stop" : 1622183991643,
+          "duration" : 4758
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/presscenter, mobileUrl=https://www.wildberries.ru)" ]
+      } ],
+      "uid" : "b94783011257455b8ea82c3c0fd2a039"
+    }, {
+      "name" : "expected [https://www.wildberries.ru/security/login] but found [https://www.wildberries.ru/lk]",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "33f26e29de656e7f",
+        "parentUid" : "f9f66b1160bf1a2fd172735830f0fde8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183872156,
+          "stop" : 1622183881756,
+          "duration" : 9600
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/newsfeed, mobileUrl=https://www.wildberries.ru/security/login)" ]
+      } ],
+      "uid" : "f9f66b1160bf1a2fd172735830f0fde8"
+    }, {
+      "name" : "expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "8b139d61a797710b",
+        "parentUid" : "ee1dd846e846874831531cede247a59d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183882814,
+          "stop" : 1622183891992,
+          "duration" : 9178
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/comfort, mobileUrl=https://www.wildberries.ru/security/login)" ]
+      } ],
+      "uid" : "ee1dd846e846874831531cede247a59d"
+    }, {
+      "name" : "Timed out after 30 seconds. Unable to locate the element",
+      "children" : [ {
+        "name" : "Серчбар. Корректный поиск по артикулу / названию / бренду / размеру",
+        "uid" : "c175eab56f93be4f",
+        "parentUid" : "a7dc27802bc6d3e80c6e2a87e55f2c68",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622184032864,
+          "stop" : 1622184066926,
+          "duration" : 34062
+        },
+        "flaky" : false,
+        "parameters" : [ "CatalogItem(vendorCode=5275302)" ]
+      } ],
+      "uid" : "a7dc27802bc6d3e80c6e2a87e55f2c68"
+    }, {
+      "name" : "Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Лист ожидания - Иконка 'В корзину' на КТ + в Корзине уже есть данный товар",
+        "uid" : "821b3f56637a537d",
+        "parentUid" : "78cf51feaf5a883b80c52e706e47c0a4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622184561981,
+          "stop" : 1622184673847,
+          "duration" : 111866
+        },
+        "flaky" : false,
+        "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+      } ],
+      "uid" : "78cf51feaf5a883b80c52e706e47c0a4"
+    } ],
+    "uid" : "280a13d31e49bebc16a96b51fd556410"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=90.0.4430.85)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [fae4c00731cccf144808c79405a2ad83, executeScript {script=arguments[0].scrollIntoView({block: \"center\"});, args=[{ELEMENT=ab227057-6c6b-4f54-a331-fe2245b52ee2, element-6066-11e4-a52e-4f735466cecf=ab227057-6c6b-4f54-a331-fe2245b52ee2}]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /tmp/.com.google.Chrome.tDVYbt}, goog:chromeOptions: {debuggerAddress: localhost:42123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: fae4c00731cccf144808c79405a...}\nSession ID: fae4c00731cccf144808c79405a2ad83",
+      "children" : [ {
+        "name" : "Иконка 'В Корзину' на КТ",
+        "uid" : "802079d194ee00ad",
+        "parentUid" : "5ab7d7ab38cdade4451bedcafa360e1c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622182668074,
+          "stop" : 1622182671566,
+          "duration" : 3492
+        },
+        "flaky" : false,
+        "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+      } ],
+      "uid" : "5ab7d7ab38cdade4451bedcafa360e1c"
+    }, {
+      "name" : "Expected condition failed: waiting for ru.wildberries.pages.desktop.DesktopPage$$Lambda$986/0x0000000840987840@395d5cd8 (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "595b3d6379d2f3d6",
+        "parentUid" : "e61b646d00d5c615ecf1245a65cda29e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183295369,
+          "stop" : 1622183343870,
+          "duration" : 48501
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/communications, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "e61b646d00d5c615ecf1245a65cda29e"
+    }, {
+      "name" : "No SiteRoute with Route: /lk/communications/archive found",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "2819130349949aee",
+        "parentUid" : "0788f85914563291629e36f90896baf0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183344814,
+          "stop" : 1622183363621,
+          "duration" : 18807
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/communications/archive, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "0788f85914563291629e36f90896baf0"
+    }, {
+      "name" : "Expected condition failed: waiting for ru.wildberries.pages.desktop.DesktopPage$$Lambda$986/0x0000000840987840@188506c5 (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "14c40c48c0161f5a",
+        "parentUid" : "ba5ca3255091ee2a958882164aeef7f0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183364718,
+          "stop" : 1622183413648,
+          "duration" : 48930
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/claims, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "ba5ca3255091ee2a958882164aeef7f0"
+    }, {
+      "name" : "No SiteRoute with Route: /lk/myrefunds found",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "6cac03599d6a811d",
+        "parentUid" : "192f5cf0ba78cb00033d3f656f131de2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183443913,
+          "stop" : 1622183462654,
+          "duration" : 18741
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myrefunds, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "192f5cf0ba78cb00033d3f656f131de2"
+    }, {
+      "name" : "Expected condition failed: waiting for ru.wildberries.pages.desktop.DesktopPage$$Lambda$986/0x0000000840987840@6595ef3f (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "9068b55587576033",
+        "parentUid" : "c210edc7671ff12d84dd381e6f9a395a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622183463843,
+          "stop" : 1622183513447,
+          "duration" : 49604
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/refund, mobileUrl=https://www.wildberries.ru/lk)" ]
+      } ],
+      "uid" : "c210edc7671ff12d84dd381e6f9a395a"
+    }, {
+      "name" : "Timed out after 30 seconds. Unable to locate the element",
+      "children" : [ {
+        "name" : "Серчбар. Корректный поиск по артикулу / названию / бренду / размеру",
+        "uid" : "c175eab56f93be4f",
+        "parentUid" : "eb9bcb3b23b271dca0413b1b7cb6c275",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622184032864,
+          "stop" : 1622184066926,
+          "duration" : 34062
+        },
+        "flaky" : false,
+        "parameters" : [ "CatalogItem(vendorCode=5275302)" ]
+      } ],
+      "uid" : "eb9bcb3b23b271dca0413b1b7cb6c275"
+    }, {
+      "name" : "Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "children" : [ {
+        "name" : "Лист ожидания - Иконка 'В корзину' на КТ + в Корзине уже есть данный товар",
+        "uid" : "821b3f56637a537d",
+        "parentUid" : "96abbdb355b4a1301217d77614e68cb4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1622184561981,
+          "stop" : 1622184673847,
+          "duration" : 111866
+        },
+        "flaky" : false,
+        "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+      } ],
+      "uid" : "96abbdb355b4a1301217d77614e68cb4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [https://www.wildberries.ru] but found [https://www.wildberries.ru/]",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+        "uid" : "2b8495cdcb181576",
+        "parentUid" : "edea90b9c362f7e1df001243b34ace79",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183763025,
+          "stop" : 1622183783803,
+          "duration" : 20778
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/presscenter, mobileUrl=https://www.wildberries.ru)" ]
+      }, {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "4fd2f4cc9bedda90",
+        "parentUid" : "edea90b9c362f7e1df001243b34ace79",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183986885,
+          "stop" : 1622183991643,
+          "duration" : 4758
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/presscenter, mobileUrl=https://www.wildberries.ru)" ]
+      } ],
+      "uid" : "edea90b9c362f7e1df001243b34ace79"
+    }, {
+      "name" : "expected [https://www.wildberries.ru/security/login] but found [https://www.wildberries.ru/lk]",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "33f26e29de656e7f",
+        "parentUid" : "e8093e9cb249808e680801d2b00866cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183872156,
+          "stop" : 1622183881756,
+          "duration" : 9600
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/newsfeed, mobileUrl=https://www.wildberries.ru/security/login)" ]
+      } ],
+      "uid" : "e8093e9cb249808e680801d2b00866cc"
+    }, {
+      "name" : "expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]",
+      "children" : [ {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "8b139d61a797710b",
+        "parentUid" : "4aca111d52b1ac609509eb5dbfe13381",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183882814,
+          "stop" : 1622183891992,
+          "duration" : 9178
+        },
+        "flaky" : false,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/comfort, mobileUrl=https://www.wildberries.ru/security/login)" ]
+      }, {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "71a0259739203b2e",
+        "parentUid" : "4aca111d52b1ac609509eb5dbfe13381",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183947215,
+          "stop" : 1622183956449,
+          "duration" : 9234
+        },
+        "flaky" : true,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/mylooks, mobileUrl=https://www.wildberries.ru/security/login)" ]
+      }, {
+        "name" : "Редирект с десктопной версии на мобильную без авторизации",
+        "uid" : "2fcc60bf633964a9",
+        "parentUid" : "4aca111d52b1ac609509eb5dbfe13381",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622183957381,
+          "stop" : 1622183964650,
+          "duration" : 7269
+        },
+        "flaky" : true,
+        "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/myorders, mobileUrl=https://www.wildberries.ru/security/login)" ]
+      } ],
+      "uid" : "4aca111d52b1ac609509eb5dbfe13381"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

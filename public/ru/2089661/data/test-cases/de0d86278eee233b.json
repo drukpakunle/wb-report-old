@@ -1,0 +1,598 @@
+{
+  "uid" : "de0d86278eee233b",
+  "name" : "Переход в лист ожидания из ЛК",
+  "fullName" : "ru.wildberries.tests.waitinglist.WaitingListPageTest.navigateToWaitingListFromAccountPage",
+  "historyId" : "2f8144d947d0fbf877f544913fc03773",
+  "time" : {
+    "start" : 1622184284022,
+    "stop" : 1622184291164,
+    "duration" : 7142
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622184266943,
+      "stop" : 1622184284021,
+      "duration" : 17078
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622184267729,
+        "stop" : 1622184284021,
+        "duration" : 16292
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622184267729,
+          "stop" : 1622184277473,
+          "duration" : 9744
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login with User: User(countryCode=7, phone=8000010000)",
+          "time" : {
+            "start" : 1622184267729,
+            "stop" : 1622184272454,
+            "duration" : 4725
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу Авторизации",
+            "time" : {
+              "start" : 1622184267729,
+              "stop" : 1622184270155,
+              "duration" : 2426
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Открыть страницу: /security/login",
+              "time" : {
+                "start" : 1622184267729,
+                "stop" : 1622184269910,
+                "duration" : 2181
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Открыть страницу: https://www.wildberries.ru/security/login",
+                "time" : {
+                  "start" : 1622184267729,
+                  "stop" : 1622184268750,
+                  "duration" : 1021
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "url",
+                  "value" : "https://www.wildberries.ru/security/login"
+                } ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622184269606,
+                  "stop" : 1622184269715,
+                  "duration" : 109
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622184269782,
+                  "stop" : 1622184269857,
+                  "duration" : 75
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "siteRoute",
+                "value" : "LOGIN"
+              } ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622184269910,
+                "stop" : 1622184269980,
+                "duration" : 70
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622184270032,
+                "stop" : 1622184270099,
+                "duration" : 67
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 6,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести номер телефона: 8000010000",
+            "time" : {
+              "start" : 1622184270155,
+              "stop" : 1622184271910,
+              "duration" : 1755
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622184271442,
+                "stop" : 1622184271766,
+                "duration" : 324
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622184271817,
+                "stop" : 1622184271854,
+                "duration" : 37
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "phoneNumber",
+              "value" : "8000010000"
+            } ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести СМС код: 3755",
+            "time" : {
+              "start" : 1622184271910,
+              "stop" : 1622184272454,
+              "duration" : 544
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "smsCode",
+              "value" : "3755"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "User(countryCode=7, phone=8000010000)"
+          } ],
+          "stepsCount" : 11,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622184277473,
+          "stop" : 1622184284021,
+          "duration" : 6548
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.waitinglist.WaitingListPageTest.navigateToWaitingListFromAccountPage()"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=WaitingListPageTest.navigateToWaitingListFromAccountPage()[pri:0, instance:ru.wildberries.tests.waitinglist.WaitingListPageTest@1b19712f] output={null}]"
+      } ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1622184284022,
+        "stop" : 1622184285118,
+        "duration" : 1096
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://www.wildberries.ru",
+        "time" : {
+          "start" : 1622184284022,
+          "stop" : 1622184285118,
+          "duration" : 1096
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru",
+          "time" : {
+            "start" : 1622184284022,
+            "stop" : 1622184284860,
+            "duration" : 838
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622184284862,
+            "stop" : 1622184284924,
+            "duration" : 62
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622184284997,
+            "stop" : 1622184285055,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://www.wildberries.ru"
+        }, {
+          "name" : "pageClass",
+          "value" : "class ru.wildberries.pages.home.HomePage"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в личный кабинет",
+      "time" : {
+        "start" : 1622184285118,
+        "stop" : 1622184290519,
+        "duration" : 5401
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перейти в личный кабинет",
+        "time" : {
+          "start" : 1622184285118,
+          "stop" : 1622184290519,
+          "duration" : 5401
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет авторизованного пользователя'",
+          "time" : {
+            "start" : 1622184290254,
+            "stop" : 1622184290341,
+            "duration" : 87
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет авторизованного пользователя'",
+          "time" : {
+            "start" : 1622184290395,
+            "stop" : 1622184290464,
+            "duration" : 69
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ожидание загрузки страницы 'Лист ожидания'",
+      "time" : {
+        "start" : 1622184290633,
+        "stop" : 1622184290976,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Ожидание загрузки страницы 'Лист ожидания'",
+      "time" : {
+        "start" : 1622184291029,
+        "stop" : 1622184291073,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверить, что страница 'Лист ожидания' открыта",
+      "time" : {
+        "start" : 1622184291126,
+        "stop" : 1622184291164,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что страница 'Лист ожидания' открыта",
+        "time" : {
+          "start" : 1622184291164,
+          "stop" : 1622184291164,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Проверить, что страница 'Лист ожидания' открыта"
+        }, {
+          "name" : "value",
+          "value" : "true"
+        }, {
+          "name" : "errorMessage",
+          "value" : "Страница 'Лист ожидания' не открыта"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Лист ожидания"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622184291165,
+      "stop" : 1622184291250,
+      "duration" : 85
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622184291165,
+        "stop" : 1622184291165,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=navigateToWaitingListFromAccountPage status=SUCCESS method=WaitingListPageTest.navigateToWaitingListFromAccountPage()[pri:0, instance:ru.wildberries.tests.waitinglist.WaitingListPageTest@1b19712f] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "navigateToWaitingListFromAccountPage"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Лист Ожидания"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListPageTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Waiting List"
+  }, {
+    "name" : "story",
+    "value" : "Waiting List Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de0d86278eee233b.json",
+  "parameterValues" : [ ]
+}

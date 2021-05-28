@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "runner-czfpvyxj-project-4682-concurrent-0",
+    "children" : [ {
+      "name" : "570@runner-czfpvyxj-project-4682-concurrent-0.TestNG-tests-1(29)",
+      "children" : [ {
+        "name" : "Check that the string description of the test steps is displayed correctly",
+        "uid" : "c902baf967280bd1",
+        "parentUid" : "531bc5976b134544632b6bf8773d7c92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622191666975,
+          "stop" : 1622191666985,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "531bc5976b134544632b6bf8773d7c92"
+    } ],
+    "uid" : "ac29f6155df6be142db2b7893134a9bd"
+  } ]
+}

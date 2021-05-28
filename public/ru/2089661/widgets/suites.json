@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "f014bcf414dd151393b93f2a910b43fd",
+    "name" : "Regression Suite (all tests)",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 8,
+      "skipped" : 0,
+      "passed" : 133,
+      "unknown" : 0,
+      "total" : 147
+    }
+  } ]
+}

@@ -1,0 +1,250 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #666;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 100px;
+    font-weight: 400;
+    color: #456;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    line-height: 1.5em;
+}
+
+h3 {
+    color: #456;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+hr {
+    max-width: 800px;
+    margin: 18px auto;
+    border: 0;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid white;
+}
+
+.header {
+    text-align: right;
+    padding: 20px;
+    background: -webkit-gradient(linear,left top,right top,from(#cb11ab),to(#481173)) no-repeat;
+}
+
+img {
+    width: 100px;
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+}
+
+a {
+    font-weight: 400;
+    color: #4A8BEE;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn-run {
+    font-size: 20px;
+    border: 0;
+    background: none;
+    color: white;
+}
+
+.container {
+    margin: auto 5px;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.pipeline-input {
+    width: 200px;
+    padding: 10px;
+}
+
+.go-button {
+    padding: 10px;
+    border: 2px #97cc64 solid;
+    background: #97cc64;
+    color: #fff;
+}
+
+th, td {
+    text-align: center !important;
+    padding: 5px !important;
+}
+
+table {
+    display: inline-block;
+}
+
+tbody {
+    background:#f1f1f1;
+}
+
+table tr {
+    font-width: bold;
+}
+
+.enter-pipeline {
+    padding: 30px;
+    text-align: end;
+}
+
+caption {
+    font-weight: bold;
+}
+
+.locale {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.flagIcon {
+    width: 30px;
+    margin: 0;
+}
+
+.paramsForm {
+    display: block;
+    margin-top: 70px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.column .button {
+    float: right;
+    margin-right: 12px;
+}
+
+select {
+    float: left;
+}
+
+.alert {
+    display: none;
+    padding: 20px;
+    margin: 50px 50px 0 50px;
+    background-color: #8ada7b;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.closebtn {
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 27px;
+    line-height: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.suites, .url, .groups {
+    display: inline-flex;
+    padding-top: 12px;
+}
+
+.overrideHost {
+    margin-top: 17px !important;
+    display: inline-flex;
+}
+
+.lbl-inline {
+    font-size: 15px;
+    align-self: center;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+span#groupSelector, select#groupSelect {
+    width: 100%;
+}
+
+input#ipField {
+    width: auto;
+    text-align: end;
+    margin-left: 10px;
+}
+
+.modal-header, h4, .close {
+    background: -webkit-gradient(linear,left top,right top,from(#cb11ab),to(#481173)) no-repeat;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.modal-footer {
+    background-color: #f9f9f9;
+  }
+
+.form-group {
+    margin-top: 2px;
+    margin-bottom: 5px !important;
+  }
+
+.form-group label {
+    margin-top: 5px;
+  }
+
+.form-group url {
+    margin-top: 15px;
+  }
+
+.form-group overrideHost {
+    margin-top: 15px;
+  }
+
+input#overrideHostCheckBox {
+    margin-left: 6px;
+    margin-top: 11px;
+}
+
+.form-group overrideHost {
+    margin-top: 5px !important;
+}
+
+.icon-mini {
+    width: 12px;
+    opacity: 60%;
+    margin: 5px 3px 10px 3px;
+}
+
+.title {
+    color: white;
+    display: inline;
+    font-weight: 100;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: -12px;
+    font-size: 20px;
+}

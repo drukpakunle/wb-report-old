@@ -1,0 +1,517 @@
+{
+  "uid" : "18bf27bea95ec2c5",
+  "name" : "Переход по всем ссылкам главного меню",
+  "fullName" : "ru.wildberries.tests.common.MainMenuTest.followAllLinksOfMainMenu",
+  "historyId" : "465b68bbe03240ca7811212c500d0a",
+  "time" : {
+    "start" : 1622180954084,
+    "stop" : 1622180968217,
+    "duration" : 14133
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622180949203,
+      "stop" : 1622180954027,
+      "duration" : 4824
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622180954023,
+        "stop" : 1622180954026,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622180954024,
+          "stop" : 1622180954026,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622180954026,
+          "stop" : 1622180954026,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.common.MainMenuTest.followAllLinksOfMainMenu()"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=MainMenuTest.followAllLinksOfMainMenu()[pri:0, instance:ru.wildberries.tests.common.MainMenuTest@7bb4ed71] output={null}]"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1622180954085,
+        "stop" : 1622180957096,
+        "duration" : 3011
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://www.wildberries.ru",
+        "time" : {
+          "start" : 1622180954086,
+          "stop" : 1622180957096,
+          "duration" : 3010
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru",
+          "time" : {
+            "start" : 1622180954086,
+            "stop" : 1622180955654,
+            "duration" : 1568
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622180955736,
+            "stop" : 1622180956760,
+            "duration" : 1024
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622180956905,
+            "stop" : 1622180956996,
+            "duration" : 91
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://www.wildberries.ru"
+        }, {
+          "name" : "pageClass",
+          "value" : "class ru.wildberries.pages.home.HomePage"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что страница 'Главная' открыта",
+      "time" : {
+        "start" : 1622180957101,
+        "stop" : 1622180957166,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что страница 'Главная' открыта",
+        "time" : {
+          "start" : 1622180957163,
+          "stop" : 1622180957166,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Проверить, что страница 'Главная' открыта"
+        }, {
+          "name" : "value",
+          "value" : "true"
+        }, {
+          "name" : "errorMessage",
+          "value" : "Страница 'Главная' не открыта"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Главная"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в личный кабинет",
+      "time" : {
+        "start" : 1622180957166,
+        "stop" : 1622180962671,
+        "duration" : 5505
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перейти в личный кабинет",
+        "time" : {
+          "start" : 1622180957166,
+          "stop" : 1622180962671,
+          "duration" : 5505
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+          "time" : {
+            "start" : 1622180962377,
+            "stop" : 1622180962452,
+            "duration" : 75
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+          "time" : {
+            "start" : 1622180962544,
+            "stop" : 1622180962594,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что страница 'Личный кабинет неавторизованного пользователя' открыта",
+      "time" : {
+        "start" : 1622180962672,
+        "stop" : 1622180962709,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что страница 'Личный кабинет неавторизованного пользователя' открыта",
+        "time" : {
+          "start" : 1622180962709,
+          "stop" : 1622180962709,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Проверить, что страница 'Личный кабинет неавторизованного пользователя' открыта"
+        }, {
+          "name" : "value",
+          "value" : "true"
+        }, {
+          "name" : "errorMessage",
+          "value" : "Страница 'Личный кабинет неавторизованного пользователя' не открыта"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Личный кабинет неавторизованного пользователя"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в корзину",
+      "time" : {
+        "start" : 1622180962710,
+        "stop" : 1622180968172,
+        "duration" : 5462
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перейти в корзину",
+        "time" : {
+          "start" : 1622180962710,
+          "stop" : 1622180968172,
+          "duration" : 5462
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание загрузки страницы 'Корзина. Неавторизованный пользователь'",
+          "time" : {
+            "start" : 1622180967903,
+            "stop" : 1622180967968,
+            "duration" : 65
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Корзина. Неавторизованный пользователь'",
+          "time" : {
+            "start" : 1622180968043,
+            "stop" : 1622180968097,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что страница 'Корзина. Неавторизованный пользователь' открыта",
+      "time" : {
+        "start" : 1622180968172,
+        "stop" : 1622180968206,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что страница 'Корзина. Неавторизованный пользователь' открыта",
+        "time" : {
+          "start" : 1622180968206,
+          "stop" : 1622180968206,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Проверить, что страница 'Корзина. Неавторизованный пользователь' открыта"
+        }, {
+          "name" : "value",
+          "value" : "true"
+        }, {
+          "name" : "errorMessage",
+          "value" : "Страница 'Корзина. Неавторизованный пользователь' не открыта"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "page",
+        "value" : "Корзина. Неавторизованный пользователь"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 19,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622180968235,
+      "stop" : 1622180968371,
+      "duration" : 136
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622180968236,
+        "stop" : 1622180968236,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=followAllLinksOfMainMenu status=SUCCESS method=MainMenuTest.followAllLinksOfMainMenu()[pri:0, instance:ru.wildberries.tests.common.MainMenuTest@7bb4ed71] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.common.MainMenuTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.common.MainMenuTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "followAllLinksOfMainMenu"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Общие Тесты"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.common.MainMenuTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Common"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "story",
+    "value" : "Main Menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18bf27bea95ec2c5.json",
+  "parameterValues" : [ ]
+}

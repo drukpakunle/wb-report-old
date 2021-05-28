@@ -1,0 +1,378 @@
+{
+  "uid" : "8b139d61a797710b",
+  "name" : "Редирект с десктопной версии на мобильную без авторизации",
+  "fullName" : "ru.wildberries.tests.redirects.RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin",
+  "historyId" : "da458fcd60a8d53deab61aed9cfd27c8",
+  "time" : {
+    "start" : 1622183882814,
+    "stop" : 1622183891992,
+    "duration" : 9178
+  },
+  "status" : "failed",
+  "statusMessage" : "expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]",
+  "statusTrace" : "java.lang.AssertionError: expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:617)\n\tat ru.wildberries.asserts.AssertHelper.assertEquals(AssertHelper.java:88)\n\tat ru.wildberries.tests.redirects.RedirectsTest.checkDesktopToMobileRedirects(RedirectsTest.java:23)\n\tat ru.wildberries.tests.redirects.RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin(RedirectsWithoutAuthTest.java:24)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622183881946,
+      "stop" : 1622183882811,
+      "duration" : 865
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622183882811,
+        "stop" : 1622183882811,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622183882811,
+          "stop" : 1622183882811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=DESKTOP)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622183882811,
+          "stop" : 1622183882811,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=DESKTOP)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.redirects.RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin(ru.wildberries.models.redirects.RedirectRule)"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin(ru.wildberries.models.redirects.RedirectRule)[pri:0, instance:ru.wildberries.tests.redirects.RedirectsWithoutAuthTest@10d4b573] output={null}]"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]",
+    "statusTrace" : "java.lang.AssertionError: expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:617)\n\tat ru.wildberries.asserts.AssertHelper.assertEquals(AssertHelper.java:88)\n\tat ru.wildberries.tests.redirects.RedirectsTest.checkDesktopToMobileRedirects(RedirectsTest.java:23)\n\tat ru.wildberries.tests.redirects.RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin(RedirectsWithoutAuthTest.java:24)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+    "steps" : [ {
+      "name" : "Открыть страницу: https://lk.wildberries.ru/comfort",
+      "time" : {
+        "start" : 1622183882814,
+        "stop" : 1622183883591,
+        "duration" : 777
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://lk.wildberries.ru/comfort",
+        "time" : {
+          "start" : 1622183882814,
+          "stop" : 1622183883509,
+          "duration" : 695
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://lk.wildberries.ru/comfort"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Контейнер десктопной версии сайта'",
+        "time" : {
+          "start" : 1622183883509,
+          "stop" : 1622183883560,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Контейнер десктопной версии сайта'",
+        "time" : {
+          "start" : 1622183883560,
+          "stop" : 1622183883591,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://lk.wildberries.ru/comfort"
+      }, {
+        "name" : "pageClass",
+        "value" : "class ru.wildberries.pages.desktop.DesktopPage"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что открыта десктопная версия сайта",
+      "time" : {
+        "start" : 1622183883591,
+        "stop" : 1622183883615,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Перейти на мобильную версию сайта",
+      "time" : {
+        "start" : 1622183883615,
+        "stop" : 1622183891990,
+        "duration" : 8375
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+        "time" : {
+          "start" : 1622183891706,
+          "stop" : 1622183891756,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+        "time" : {
+          "start" : 1622183891824,
+          "stop" : 1622183891856,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Личный кабинет неавторизованного пользователя'",
+        "time" : {
+          "start" : 1622183891908,
+          "stop" : 1622183891939,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Class страницы должен быть: 'class ru.wildberries.pages.login.EnterPhoneNumberLoginPage'",
+      "time" : {
+        "start" : 1622183891990,
+        "stop" : 1622183891991,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]",
+      "statusTrace" : "java.lang.AssertionError: expected [class ru.wildberries.pages.login.EnterPhoneNumberLoginPage] but found [class ru.wildberries.pages.account.UnauthorizedUserAccountPage]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:617)\n\tat ru.wildberries.asserts.AssertHelper.assertEquals(AssertHelper.java:88)\n\tat ru.wildberries.tests.redirects.RedirectsTest.checkDesktopToMobileRedirects(RedirectsTest.java:23)\n\tat ru.wildberries.tests.redirects.RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin(RedirectsWithoutAuthTest.java:24)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "stepName",
+        "value" : "Class страницы должен быть: 'class ru.wildberries.pages.login.EnterPhoneNumberLoginPage'"
+      }, {
+        "name" : "actual",
+        "value" : "class ru.wildberries.pages.account.UnauthorizedUserAccountPage"
+      }, {
+        "name" : "expected",
+        "value" : "class ru.wildberries.pages.login.EnterPhoneNumberLoginPage"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622183891993,
+      "stop" : 1622183892198,
+      "duration" : 205
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622183891993,
+        "stop" : 1622183892074,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e056de21e740d41e",
+        "name" : "error-screenshot.png",
+        "source" : "e056de21e740d41e.png",
+        "type" : "image/png",
+        "size" : 44565
+      } ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=desktopToMobileRedirectsWithoutLogin status=FAILURE method=RedirectsWithoutAuthTest.desktopToMobileRedirectsWithoutLogin(ru.wildberries.models.redirects.RedirectRule)[pri:0, instance:ru.wildberries.tests.redirects.RedirectsWithoutAuthTest@10d4b573] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.redirects.RedirectsWithoutAuthTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.redirects.RedirectsWithoutAuthTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "desktopToMobileRedirectsWithoutLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Редиректы"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.redirects.RedirectsWithoutAuthTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Redirects"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "story",
+    "value" : "Redirects from Desktop to Mobile without Auth"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/comfort, mobileUrl=https://www.wildberries.ru/security/login)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Infrastructure problems",
+      "matchedStatuses" : [ "broken", "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8b139d61a797710b.json",
+  "parameterValues" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/comfort, mobileUrl=https://www.wildberries.ru/security/login)" ]
+}

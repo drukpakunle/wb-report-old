@@ -1,0 +1,346 @@
+{
+  "uid" : "143b257aef8e14a0",
+  "name" : "В корзине нет товаров",
+  "fullName" : "ru.wildberries.tests.basket.UnauthorizedUserBasketTest.checkThatBasketIsEmpty",
+  "historyId" : "eff32d389fe6adb3bf4cac6cd729d837",
+  "time" : {
+    "start" : 1622182006960,
+    "stop" : 1622182015234,
+    "duration" : 8274
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622182005747,
+      "stop" : 1622182006957,
+      "duration" : 1210
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622182006956,
+        "stop" : 1622182006957,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622182006957,
+          "stop" : 1622182006957,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622182006957,
+          "stop" : 1622182006957,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.basket.UnauthorizedUserBasketTest.checkThatBasketIsEmpty()"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=UnauthorizedUserBasketTest.checkThatBasketIsEmpty()[pri:0, instance:ru.wildberries.tests.basket.UnauthorizedUserBasketTest@425b5fe2] output={null}]"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1622182006960,
+        "stop" : 1622182009849,
+        "duration" : 2889
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://www.wildberries.ru",
+        "time" : {
+          "start" : 1622182006960,
+          "stop" : 1622182009849,
+          "duration" : 2889
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru",
+          "time" : {
+            "start" : 1622182006960,
+            "stop" : 1622182008301,
+            "duration" : 1341
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622182008302,
+            "stop" : 1622182009641,
+            "duration" : 1339
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622182009716,
+            "stop" : 1622182009782,
+            "duration" : 66
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://www.wildberries.ru"
+        }, {
+          "name" : "pageClass",
+          "value" : "class ru.wildberries.pages.home.HomePage"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти в корзину",
+      "time" : {
+        "start" : 1622182009849,
+        "stop" : 1622182015190,
+        "duration" : 5341
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перейти в корзину",
+        "time" : {
+          "start" : 1622182009849,
+          "stop" : 1622182015190,
+          "duration" : 5341
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание загрузки страницы 'Корзина. Неавторизованный пользователь'",
+          "time" : {
+            "start" : 1622182014985,
+            "stop" : 1622182015043,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Корзина. Неавторизованный пользователь'",
+          "time" : {
+            "start" : 1622182015102,
+            "stop" : 1622182015135,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что корзина пустая",
+      "time" : {
+        "start" : 1622182015190,
+        "stop" : 1622182015234,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622182015236,
+      "stop" : 1622182015367,
+      "duration" : 131
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622182015237,
+        "stop" : 1622182015237,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=checkThatBasketIsEmpty status=SUCCESS method=UnauthorizedUserBasketTest.checkThatBasketIsEmpty()[pri:0, instance:ru.wildberries.tests.basket.UnauthorizedUserBasketTest@425b5fe2] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.basket.UnauthorizedUserBasketTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.basket.UnauthorizedUserBasketTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkThatBasketIsEmpty"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Корзина"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.basket.UnauthorizedUserBasketTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Basket"
+  }, {
+    "name" : "story",
+    "value" : "Unauthorized User Basket"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "143b257aef8e14a0.json",
+  "parameterValues" : [ ]
+}

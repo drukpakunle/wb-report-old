@@ -1,0 +1,15 @@
+[
+  {
+    "locale": "kz",
+    "pipelineId": "2090487",
+    "dateTime": "28.05 Friday 11:47 MSK",
+    "upstreamPipelineId": "null",
+    "appVersion": "version not available",
+    "envUrl": "https://kz.wildberries.ru",
+    "envOverrideHost": "true",
+    "envOverrideIP": "10.10.41.149",
+    "runGroups": "",
+    "runThreadCount": "1",
+    "device": "Galaxy S5"
+  }
+]

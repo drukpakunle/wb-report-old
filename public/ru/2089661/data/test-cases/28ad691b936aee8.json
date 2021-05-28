@@ -1,0 +1,1483 @@
+{
+  "uid" : "28ad691b936aee8",
+  "name" : "Фильтр по группе товаров - Создать новую группу: Название пустое",
+  "fullName" : "ru.wildberries.tests.poned.FiltersPonedPageTest.createNewGroupWithEmptyName",
+  "historyId" : "1f9af7a4bdff71bfbb1181a71c22f061",
+  "time" : {
+    "start" : 1622182217323,
+    "stop" : 1622182221153,
+    "duration" : 3830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622182200045,
+      "stop" : 1622182217321,
+      "duration" : 17276
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622182200795,
+        "stop" : 1622182217321,
+        "duration" : 16526
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622182200795,
+          "stop" : 1622182210563,
+          "duration" : 9768
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login with User: User(countryCode=7, phone=8000010000)",
+          "time" : {
+            "start" : 1622182200795,
+            "stop" : 1622182205544,
+            "duration" : 4749
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу Авторизации",
+            "time" : {
+              "start" : 1622182200795,
+              "stop" : 1622182203244,
+              "duration" : 2449
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Открыть страницу: /security/login",
+              "time" : {
+                "start" : 1622182200795,
+                "stop" : 1622182202986,
+                "duration" : 2191
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Открыть страницу: https://www.wildberries.ru/security/login",
+                "time" : {
+                  "start" : 1622182200795,
+                  "stop" : 1622182201826,
+                  "duration" : 1031
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "url",
+                  "value" : "https://www.wildberries.ru/security/login"
+                } ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622182202670,
+                  "stop" : 1622182202777,
+                  "duration" : 107
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622182202849,
+                  "stop" : 1622182202930,
+                  "duration" : 81
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "siteRoute",
+                "value" : "LOGIN"
+              } ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622182202987,
+                "stop" : 1622182203061,
+                "duration" : 74
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622182203116,
+                "stop" : 1622182203189,
+                "duration" : 73
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 6,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести номер телефона: 8000010000",
+            "time" : {
+              "start" : 1622182203244,
+              "stop" : 1622182205008,
+              "duration" : 1764
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622182204540,
+                "stop" : 1622182204865,
+                "duration" : 325
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622182204921,
+                "stop" : 1622182204955,
+                "duration" : 34
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "phoneNumber",
+              "value" : "8000010000"
+            } ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести СМС код: 3755",
+            "time" : {
+              "start" : 1622182205008,
+              "stop" : 1622182205544,
+              "duration" : 536
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "smsCode",
+              "value" : "3755"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "User(countryCode=7, phone=8000010000)"
+          } ],
+          "stepsCount" : 11,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622182210563,
+          "stop" : 1622182217321,
+          "duration" : 6758
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.poned.FiltersPonedPageTest.createNewGroupWithEmptyName()"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=FiltersPonedPageTest.createNewGroupWithEmptyName()[pri:0, instance:ru.wildberries.tests.poned.FiltersPonedPageTest@22c29aa8] output={null}]"
+      } ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу 'Отложенные'",
+      "time" : {
+        "start" : 1622182217323,
+        "stop" : 1622182218268,
+        "duration" : 945
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://www.wildberries.ru/lk/poned",
+        "time" : {
+          "start" : 1622182217323,
+          "stop" : 1622182218268,
+          "duration" : 945
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru/lk/poned",
+          "time" : {
+            "start" : 1622182217323,
+            "stop" : 1622182218066,
+            "duration" : 743
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru/lk/poned"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Отложенные'",
+          "time" : {
+            "start" : 1622182218068,
+            "stop" : 1622182218118,
+            "duration" : 50
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Отложенные'",
+          "time" : {
+            "start" : 1622182218181,
+            "stop" : 1622182218213,
+            "duration" : 32
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://www.wildberries.ru/lk/poned"
+        }, {
+          "name" : "pageClass",
+          "value" : "class ru.wildberries.pages.poned.PonedPage"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Создать новую группу 'uBzaN'",
+      "time" : {
+        "start" : 1622182218268,
+        "stop" : 1622182219821,
+        "duration" : 1553
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Нажать кнопку 'Создать новую группу'",
+        "time" : {
+          "start" : 1622182218268,
+          "stop" : 1622182218915,
+          "duration" : 647
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182218432,
+            "stop" : 1622182218453,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182218432,
+              "stop" : 1622182218453,
+              "duration" : 21
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182218482,
+            "stop" : 1622182218494,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182218482,
+              "stop" : 1622182218494,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Диалоговое окно'",
+          "time" : {
+            "start" : 1622182218507,
+            "stop" : 1622182218561,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182218513,
+              "stop" : 1622182218526,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Дождаться размера коллекции '2' элемента(ов)",
+              "time" : {
+                "start" : 1622182218513,
+                "stop" : 1622182218526,
+                "duration" : 13
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "size",
+                "value" : "2"
+              }, {
+                "name" : "list",
+                "value" : "Кнопки 'Подтвердить/Отменить'"
+              }, {
+                "name" : "errorMessage",
+                "value" : "Размер коллекции элементов не равен ожидаемому"
+              } ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            } ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182218561,
+            "stop" : 1622182218573,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182218561,
+              "stop" : 1622182218573,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182218844,
+            "stop" : 1622182218858,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182218844,
+              "stop" : 1622182218858,
+              "duration" : 14
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Диалоговое окно'",
+          "time" : {
+            "start" : 1622182218871,
+            "stop" : 1622182218915,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182218878,
+              "stop" : 1622182218891,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Дождаться размера коллекции '2' элемента(ов)",
+              "time" : {
+                "start" : 1622182218878,
+                "stop" : 1622182218891,
+                "duration" : 13
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "size",
+                "value" : "2"
+              }, {
+                "name" : "list",
+                "value" : "Кнопки 'Подтвердить/Отменить'"
+              }, {
+                "name" : "errorMessage",
+                "value" : "Размер коллекции элементов не равен ожидаемому"
+              } ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            } ],
+            "stepsCount" : 1,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 2,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 14,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести текст 'uBzaN' и подтвердить",
+        "time" : {
+          "start" : 1622182218916,
+          "stop" : 1622182219655,
+          "duration" : 739
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ввести текст: 'uBzaN'",
+          "time" : {
+            "start" : 1622182218916,
+            "stop" : 1622182219223,
+            "duration" : 307
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "text",
+            "value" : "uBzaN"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Нажать 'Confirm' в диалоговом окне",
+          "time" : {
+            "start" : 1622182219223,
+            "stop" : 1622182219655,
+            "duration" : 432
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182219223,
+              "stop" : 1622182219236,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Number of Actions Buttons on Popup must be two"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : "uBzaN"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Отложенные'",
+        "time" : {
+          "start" : 1622182219658,
+          "stop" : 1622182219689,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Отложенные'",
+        "time" : {
+          "start" : 1622182219739,
+          "stop" : 1622182219769,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "groupName",
+        "value" : "uBzaN"
+      } ],
+      "stepsCount" : 21,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список названий групп",
+      "time" : {
+        "start" : 1622182219821,
+        "stop" : 1622182219911,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить все группы",
+        "time" : {
+          "start" : 1622182219821,
+          "stop" : 1622182219854,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверить, что есть хотя бы одна группа в списке",
+          "time" : {
+            "start" : 1622182219821,
+            "stop" : 1622182219854,
+            "duration" : 33
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться элементов коллекции 'Тэги-селекторы групп'",
+            "time" : {
+              "start" : 1622182219822,
+              "stop" : 1622182219854,
+              "duration" : 32
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "list",
+              "value" : "Тэги-селекторы групп"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку 'Создать новую группу'",
+      "time" : {
+        "start" : 1622182219911,
+        "stop" : 1622182220628,
+        "duration" : 717
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182220026,
+          "stop" : 1622182220041,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182220026,
+            "stop" : 1622182220041,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182220429,
+          "stop" : 1622182220443,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182220429,
+            "stop" : 1622182220443,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Диалоговое окно'",
+        "time" : {
+          "start" : 1622182220455,
+          "stop" : 1622182220506,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182220462,
+            "stop" : 1622182220474,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182220462,
+              "stop" : 1622182220474,
+              "duration" : 12
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182220506,
+          "stop" : 1622182220519,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182220507,
+            "stop" : 1622182220519,
+            "duration" : 12
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182220557,
+          "stop" : 1622182220571,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182220557,
+            "stop" : 1622182220571,
+            "duration" : 14
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          }, {
+            "name" : "errorMessage",
+            "value" : "Размер коллекции элементов не равен ожидаемому"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        } ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Диалоговое окно'",
+        "time" : {
+          "start" : 1622182220585,
+          "stop" : 1622182220628,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться размера коллекции '2' элемента(ов)",
+          "time" : {
+            "start" : 1622182220591,
+            "stop" : 1622182220604,
+            "duration" : 13
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться размера коллекции '2' элемента(ов)",
+            "time" : {
+              "start" : 1622182220591,
+              "stop" : 1622182220604,
+              "duration" : 13
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "2"
+            }, {
+              "name" : "list",
+              "value" : "Кнопки 'Подтвердить/Отменить'"
+            }, {
+              "name" : "errorMessage",
+              "value" : "Размер коллекции элементов не равен ожидаемому"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "size",
+            "value" : "2"
+          }, {
+            "name" : "list",
+            "value" : "Кнопки 'Подтвердить/Отменить'"
+          } ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести текст '' и подтвердить",
+      "time" : {
+        "start" : 1622182220628,
+        "stop" : 1622182221078,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввести текст: ''",
+        "time" : {
+          "start" : 1622182220628,
+          "stop" : 1622182220871,
+          "duration" : 243
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "text",
+          "value" : ""
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Дождаться размера коллекции '2' элемента(ов)",
+        "time" : {
+          "start" : 1622182220871,
+          "stop" : 1622182220887,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "size",
+          "value" : "2"
+        }, {
+          "name" : "list",
+          "value" : "Кнопки 'Подтвердить/Отменить'"
+        }, {
+          "name" : "errorMessage",
+          "value" : "Number of Actions Buttons on Popup must be two"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Отложенные'",
+        "time" : {
+          "start" : 1622182220915,
+          "stop" : 1622182220948,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Отложенные'",
+        "time" : {
+          "start" : 1622182220999,
+          "stop" : 1622182221028,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : ""
+      }, {
+        "name" : "pageClass",
+        "value" : "class ru.wildberries.pages.poned.PonedPage"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список названий групп",
+      "time" : {
+        "start" : 1622182221078,
+        "stop" : 1622182221152,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить все группы",
+        "time" : {
+          "start" : 1622182221078,
+          "stop" : 1622182221102,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Проверить, что есть хотя бы одна группа в списке",
+          "time" : {
+            "start" : 1622182221078,
+            "stop" : 1622182221102,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Дождаться элементов коллекции 'Тэги-селекторы групп'",
+            "time" : {
+              "start" : 1622182221078,
+              "stop" : 1622182221102,
+              "duration" : 24
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "list",
+              "value" : "Тэги-селекторы групп"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что списки групп равны",
+      "time" : {
+        "start" : 1622182221152,
+        "stop" : 1622182221152,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Проверить, что списки групп равны",
+        "time" : {
+          "start" : 1622182221152,
+          "stop" : 1622182221152,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Проверить, что списки групп равны"
+        }, {
+          "name" : "actual",
+          "value" : "[uBzaN]"
+        }, {
+          "name" : "expected",
+          "value" : "[uBzaN]"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "groupListActual",
+        "value" : "[uBzaN]"
+      }, {
+        "name" : "groupListExpected",
+        "value" : "[uBzaN]"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 57,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622182221154,
+      "stop" : 1622182221281,
+      "duration" : 127
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622182221154,
+        "stop" : 1622182221154,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=createNewGroupWithEmptyName status=SUCCESS method=FiltersPonedPageTest.createNewGroupWithEmptyName()[pri:0, instance:ru.wildberries.tests.poned.FiltersPonedPageTest@22c29aa8] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.poned.FiltersPonedPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.poned.FiltersPonedPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewGroupWithEmptyName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Отложенные"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.poned.FiltersPonedPageTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Poned"
+  }, {
+    "name" : "story",
+    "value" : "Filters on Poned Page"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28ad691b936aee8.json",
+  "parameterValues" : [ ]
+}

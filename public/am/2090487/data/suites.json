@@ -1,0 +1,29 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Self-Check Suite",
+    "children" : [ {
+      "name" : "Check that HTML report build correctly",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.system.SystemSelfTest",
+        "children" : [ {
+          "name" : "Check that the string description of the test steps is displayed correctly",
+          "uid" : "4917703b3d92fada",
+          "parentUid" : "8fec12d282c9f0dcce868445acd866b0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622191664002,
+            "stop" : 1622191664014,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8fec12d282c9f0dcce868445acd866b0"
+      } ],
+      "uid" : "eecd6cacb68bbbf6c4f58d7b73013582"
+    } ],
+    "uid" : "d946a6f2d62ad348ffc0369f93cb8e5e"
+  } ]
+}

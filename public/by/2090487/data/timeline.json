@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "runner-p26hkai-project-4682-concurrent-1",
+    "children" : [ {
+      "name" : "575@runner-p26hkai-project-4682-concurrent-1.TestNG-tests-1(29)",
+      "children" : [ {
+        "name" : "Check that the string description of the test steps is displayed correctly",
+        "uid" : "8490e054d69287fd",
+        "parentUid" : "a3cab0e46e6510e2269d1efea153efd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622191664670,
+          "stop" : 1622191664681,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a3cab0e46e6510e2269d1efea153efd2"
+    } ],
+    "uid" : "a727fe9c9cbe7313ff23b0d85c7f5c46"
+  } ]
+}

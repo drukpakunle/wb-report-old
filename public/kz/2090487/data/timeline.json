@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "runner-6z-wryrc-project-4682-concurrent-0",
+    "children" : [ {
+      "name" : "572@runner-6z-wryrc-project-4682-concurrent-0.TestNG-tests-1(29)",
+      "children" : [ {
+        "name" : "Check that the string description of the test steps is displayed correctly",
+        "uid" : "69e989ef6e305ace",
+        "parentUid" : "d9b3d10899ce28959dbbe15d256c5980",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622191665480,
+          "stop" : 1622191665489,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9b3d10899ce28959dbbe15d256c5980"
+    } ],
+    "uid" : "e03d9a039a58ba583d4a83ded4247011"
+  } ]
+}

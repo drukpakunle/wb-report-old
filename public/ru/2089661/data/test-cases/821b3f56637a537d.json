@@ -1,0 +1,776 @@
+{
+  "uid" : "821b3f56637a537d",
+  "name" : "Лист ожидания - Иконка 'В корзину' на КТ + в Корзине уже есть данный товар",
+  "fullName" : "ru.wildberries.tests.waitinglist.WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct",
+  "historyId" : "8928f15cdf6aac2aa858c0c8ba3193ab",
+  "time" : {
+    "start" : 1622184561981,
+    "stop" : 1622184673847,
+    "duration" : 111866
+  },
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat ru.wildberries.utils.ListElementsUtils.waitForListNotEmpty(ListElementsUtils.java:19)\n\tat ru.wildberries.pages.waitinglist.WaitingListPage.getWaitingProductList(WaitingListPage.java:67)\n\tat ru.wildberries.tests.waitinglist.WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(WaitingListToBasketTest.java:132)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622184544783,
+      "stop" : 1622184561979,
+      "duration" : 17196
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622184545525,
+        "stop" : 1622184561979,
+        "duration" : 16454
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622184545525,
+          "stop" : 1622184555417,
+          "duration" : 9892
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Login with User: User(countryCode=7, phone=8000010000)",
+          "time" : {
+            "start" : 1622184545525,
+            "stop" : 1622184550397,
+            "duration" : 4872
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу Авторизации",
+            "time" : {
+              "start" : 1622184545525,
+              "stop" : 1622184548138,
+              "duration" : 2613
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Открыть страницу: /security/login",
+              "time" : {
+                "start" : 1622184545525,
+                "stop" : 1622184547918,
+                "duration" : 2393
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "Открыть страницу: https://www.wildberries.ru/security/login",
+                "time" : {
+                  "start" : 1622184545525,
+                  "stop" : 1622184546561,
+                  "duration" : 1036
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ {
+                  "name" : "url",
+                  "value" : "https://www.wildberries.ru/security/login"
+                } ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622184547634,
+                  "stop" : 1622184547744,
+                  "duration" : 110
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              }, {
+                "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+                "time" : {
+                  "start" : 1622184547809,
+                  "stop" : 1622184547872,
+                  "duration" : 63
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 0,
+                "shouldDisplayMessage" : false,
+                "hasContent" : false
+              } ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "siteRoute",
+                "value" : "LOGIN"
+              } ],
+              "stepsCount" : 3,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622184547918,
+                "stop" : 1622184547980,
+                "duration" : 62
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+              "time" : {
+                "start" : 1622184548025,
+                "stop" : 1622184548089,
+                "duration" : 64
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 6,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести номер телефона: 8000010000",
+            "time" : {
+              "start" : 1622184548138,
+              "stop" : 1622184549881,
+              "duration" : 1743
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622184549416,
+                "stop" : 1622184549738,
+                "duration" : 322
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+              "time" : {
+                "start" : 1622184549794,
+                "stop" : 1622184549828,
+                "duration" : 34
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "phoneNumber",
+              "value" : "8000010000"
+            } ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ввести СМС код: 3755",
+            "time" : {
+              "start" : 1622184549881,
+              "stop" : 1622184550397,
+              "duration" : 516
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "smsCode",
+              "value" : "3755"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "user",
+            "value" : "User(countryCode=7, phone=8000010000)"
+          } ],
+          "stepsCount" : 11,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622184555417,
+          "stop" : 1622184561979,
+          "duration" : 6562
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=true, auth=true, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.waitinglist.WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(ru.wildberries.models.catalog.CatalogItem)"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(ru.wildberries.models.catalog.CatalogItem)[pri:0, instance:ru.wildberries.tests.waitinglist.WaitingListToBasketTest@714c74eb] output={null}]"
+      } ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat ru.wildberries.utils.ListElementsUtils.waitForListNotEmpty(ListElementsUtils.java:19)\n\tat ru.wildberries.pages.waitinglist.WaitingListPage.getWaitingProductList(WaitingListPage.java:67)\n\tat ru.wildberries.tests.waitinglist.WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(WaitingListToBasketTest.java:132)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+    "steps" : [ {
+      "name" : "Добавить товар 'CatalogItem(vendorCode=4288666)' в корзину",
+      "time" : {
+        "start" : 1622184561981,
+        "stop" : 1622184612288,
+        "duration" : 50307
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Добавить товары '[CatalogItem(vendorCode=4288666)]' в корзину",
+        "time" : {
+          "start" : 1622184561981,
+          "stop" : 1622184612288,
+          "duration" : 50307
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу 'Корзина'",
+          "time" : {
+            "start" : 1622184561981,
+            "stop" : 1622184586752,
+            "duration" : 24771
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу: https://www.wildberries.ru/lk/basket",
+            "time" : {
+              "start" : 1622184561981,
+              "stop" : 1622184586752,
+              "duration" : 24771
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Открыть страницу: https://www.wildberries.ru/lk/basket",
+              "time" : {
+                "start" : 1622184561981,
+                "stop" : 1622184563005,
+                "duration" : 1024
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "url",
+                "value" : "https://www.wildberries.ru/lk/basket"
+              } ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+              "time" : {
+                "start" : 1622184568027,
+                "stop" : 1622184574206,
+                "duration" : 6179
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+              "time" : {
+                "start" : 1622184574281,
+                "stop" : 1622184580457,
+                "duration" : 6176
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+              "time" : {
+                "start" : 1622184580512,
+                "stop" : 1622184586696,
+                "duration" : 6184
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://www.wildberries.ru/lk/basket"
+            }, {
+              "name" : "pageClass",
+              "value" : "class ru.wildberries.pages.basket.BasketPage"
+            } ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Открыть страницу 'Корзина'",
+          "time" : {
+            "start" : 1622184587627,
+            "stop" : 1622184612288,
+            "duration" : 24661
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу: https://www.wildberries.ru/lk/basket",
+            "time" : {
+              "start" : 1622184587628,
+              "stop" : 1622184612288,
+              "duration" : 24660
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "Открыть страницу: https://www.wildberries.ru/lk/basket",
+              "time" : {
+                "start" : 1622184587628,
+                "stop" : 1622184588334,
+                "duration" : 706
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ {
+                "name" : "url",
+                "value" : "https://www.wildberries.ru/lk/basket"
+              } ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            }, {
+              "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+              "time" : {
+                "start" : 1622184593353,
+                "stop" : 1622184599520,
+                "duration" : 6167
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+              "time" : {
+                "start" : 1622184599591,
+                "stop" : 1622184606030,
+                "duration" : 6439
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            }, {
+              "name" : "Ожидание загрузки страницы 'Корзина. Авторизованный пользователь'",
+              "time" : {
+                "start" : 1622184606083,
+                "stop" : 1622184612236,
+                "duration" : 6153
+              },
+              "status" : "passed",
+              "steps" : [ ],
+              "attachments" : [ ],
+              "parameters" : [ ],
+              "stepsCount" : 0,
+              "attachmentsCount" : 0,
+              "shouldDisplayMessage" : false,
+              "hasContent" : false
+            } ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://www.wildberries.ru/lk/basket"
+            }, {
+              "name" : "pageClass",
+              "value" : "class ru.wildberries.pages.basket.BasketPage"
+            } ],
+            "stepsCount" : 4,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 5,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "catalogItemList",
+          "value" : "[CatalogItem(vendorCode=4288666)]"
+        } ],
+        "stepsCount" : 12,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "catalogItem",
+        "value" : "CatalogItem(vendorCode=4288666)"
+      } ],
+      "stepsCount" : 13,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Добавить товар 'CatalogItem(vendorCode=4288666)' в лист ожидания",
+      "time" : {
+        "start" : 1622184612288,
+        "stop" : 1622184643322,
+        "duration" : 31034
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Добавить товары: '[CatalogItem(vendorCode=4288666)]' в лист ожидания",
+        "time" : {
+          "start" : 1622184612288,
+          "stop" : 1622184643322,
+          "duration" : 31034
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: /lk/waitinglist",
+          "time" : {
+            "start" : 1622184642380,
+            "stop" : 1622184643322,
+            "duration" : 942
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Открыть страницу: https://www.wildberries.ru/lk/waitinglist",
+            "time" : {
+              "start" : 1622184642380,
+              "stop" : 1622184643085,
+              "duration" : 705
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "url",
+              "value" : "https://www.wildberries.ru/lk/waitinglist"
+            } ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          }, {
+            "name" : "Ожидание загрузки страницы 'Лист ожидания'",
+            "time" : {
+              "start" : 1622184643091,
+              "stop" : 1622184643163,
+              "duration" : 72
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          }, {
+            "name" : "Ожидание загрузки страницы 'Лист ожидания'",
+            "time" : {
+              "start" : 1622184643221,
+              "stop" : 1622184643271,
+              "duration" : 50
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ ],
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "hasContent" : false
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "siteRoute",
+            "value" : "WAITING_LIST"
+          } ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "catalogItemList",
+          "value" : "[CatalogItem(vendorCode=4288666)]"
+        } ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "catalogItem",
+        "value" : "CatalogItem(vendorCode=4288666)"
+      } ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить коллекцию карточек товаров в листе ожидания",
+      "time" : {
+        "start" : 1622184643322,
+        "stop" : 1622184673845,
+        "duration" : 30523
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat ru.wildberries.utils.ListElementsUtils.waitForListNotEmpty(ListElementsUtils.java:19)\n\tat ru.wildberries.pages.waitinglist.WaitingListPage.getWaitingProductList(WaitingListPage.java:67)\n\tat ru.wildberries.tests.waitinglist.WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(WaitingListToBasketTest.java:132)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+      "steps" : [ {
+        "name" : "Дождаться элементов коллекции 'Список товаров в листе ожидания'",
+        "time" : {
+          "start" : 1622184643322,
+          "stop" : 1622184673845,
+          "duration" : 30523
+        },
+        "status" : "broken",
+        "statusMessage" : "Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown",
+        "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: Список элементов пуст (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '4.0.0-beta-3', revision: '5d108f9a67'\nSystem info: host: 'runner-zwfryps-project-4682-concurrent-0', ip: '172.17.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.0-14-amd64', java.version: '11.0.11'\nDriver info: driver.version: unknown\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\n\tat ru.wildberries.utils.ListElementsUtils.waitForListNotEmpty(ListElementsUtils.java:19)\n\tat ru.wildberries.pages.waitinglist.WaitingListPage.getWaitingProductList(WaitingListPage.java:67)\n\tat ru.wildberries.tests.waitinglist.WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(WaitingListToBasketTest.java:132)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\n\tat org.testng.TestRunner.run(TestRunner.java:596)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:829)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "list",
+          "value" : "Список товаров в листе ожидания"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622184673850,
+      "stop" : 1622184674080,
+      "duration" : 230
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622184673851,
+        "stop" : 1622184673941,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52113f974b50c161",
+        "name" : "error-screenshot.png",
+        "source" : "52113f974b50c161.png",
+        "type" : "image/png",
+        "size" : 52760
+      } ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct status=FAILURE method=WaitingListToBasketTest.toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct(ru.wildberries.models.catalog.CatalogItem)[pri:0, instance:ru.wildberries.tests.waitinglist.WaitingListToBasketTest@714c74eb] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListToBasketTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListToBasketTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "toBasketIconOnWaitingListProductItemAndBasketContainsThisProduct"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Лист Ожидания"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListToBasketTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Waiting List To Basket"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Waiting List"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "CatalogItem(vendorCode=4288666)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Infrastructure problems",
+      "matchedStatuses" : [ "broken", "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Test defects",
+      "matchedStatuses" : [ "broken" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "821b3f56637a537d.json",
+  "parameterValues" : [ "CatalogItem(vendorCode=4288666)" ]
+}

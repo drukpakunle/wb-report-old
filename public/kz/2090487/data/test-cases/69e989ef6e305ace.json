@@ -1,0 +1,104 @@
+{
+  "uid" : "69e989ef6e305ace",
+  "name" : "Check that the string description of the test steps is displayed correctly",
+  "fullName" : "ru.wildberries.tests.system.SystemSelfTest.selfCheckTest",
+  "historyId" : "63419683fbc3829bae3fffedd1de33f0",
+  "time" : {
+    "start" : 1622191665480,
+    "stop" : 1622191665489,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622191665528,
+      "stop" : 1622191665547,
+      "duration" : 19
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622191665542,
+        "stop" : 1622191665545,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=selfCheckTest status=SUCCESS method=SystemSelfTest.selfCheckTest()[pri:0, instance:ru.wildberries.tests.system.SystemSelfTest@7ad889be] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.system.SystemSelfTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.system.SystemSelfTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "selfCheckTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Self-Check Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Check that HTML report build correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.system.SystemSelfTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-6z-wryrc-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-6z-wryrc-project-4682-concurrent-0.TestNG-tests-1(29)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Self"
+  }, {
+    "name" : "story",
+    "value" : "Test"
+  }, {
+    "name" : "epic",
+    "value" : "System"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69e989ef6e305ace.json",
+  "parameterValues" : [ ]
+}

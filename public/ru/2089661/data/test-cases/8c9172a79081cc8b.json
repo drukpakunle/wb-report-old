@@ -1,0 +1,589 @@
+{
+  "uid" : "8c9172a79081cc8b",
+  "name" : "Добавить в лист ожидания с КТ. Неавторизованный пользователь. Войти в аккаунт. После логина редирект в КТ",
+  "fullName" : "ru.wildberries.tests.waitinglist.WaitingListPageTest.addToWaitingListAsUnauthorizedUserThenLogin",
+  "historyId" : "c1e456e6c4a23e6422f875ee53d9bd7c",
+  "time" : {
+    "start" : 1622184183588,
+    "stop" : 1622184191045,
+    "duration" : 7457
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622184182857,
+      "stop" : 1622184183586,
+      "duration" : 729
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622184183586,
+        "stop" : 1622184183586,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622184183586,
+          "stop" : 1622184183586,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622184183586,
+          "stop" : 1622184183586,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.waitinglist.WaitingListPageTest.addToWaitingListAsUnauthorizedUserThenLogin(ru.wildberries.models.catalog.CatalogItem)"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=WaitingListPageTest.addToWaitingListAsUnauthorizedUserThenLogin(ru.wildberries.models.catalog.CatalogItem)[pri:0, instance:ru.wildberries.tests.waitinglist.WaitingListPageTest@1b19712f] output={null}]"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть страницу: https://www.wildberries.ru/catalog/9028775/detail.aspx",
+      "time" : {
+        "start" : 1622184183588,
+        "stop" : 1622184185924,
+        "duration" : 2336
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://www.wildberries.ru/catalog/9028775/detail.aspx",
+        "time" : {
+          "start" : 1622184183588,
+          "stop" : 1622184184887,
+          "duration" : 1299
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://www.wildberries.ru/catalog/9028775/detail.aspx"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Карточка недоступного для заказа товара'",
+        "time" : {
+          "start" : 1622184184889,
+          "stop" : 1622184185766,
+          "duration" : 877
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Карточка недоступного для заказа товара'",
+        "time" : {
+          "start" : 1622184185833,
+          "stop" : 1622184185866,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://www.wildberries.ru/catalog/9028775/detail.aspx"
+      }, {
+        "name" : "pageClass",
+        "value" : "class ru.wildberries.pages.catalog.CatalogDetailNotAvailablePage"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Добавить в лист ожидания",
+      "time" : {
+        "start" : 1622184185924,
+        "stop" : 1622184185995,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать 'Войти в Аккаунт' в диалоговом окне",
+      "time" : {
+        "start" : 1622184186431,
+        "stop" : 1622184187152,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+        "time" : {
+          "start" : 1622184186863,
+          "stop" : 1622184186968,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Авторизация. Ввод номера телефона'",
+        "time" : {
+          "start" : 1622184187022,
+          "stop" : 1622184187099,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Авторизоваться и перейти на страницу: class ru.wildberries.pages.catalog.CatalogDetailNotAvailablePage",
+      "time" : {
+        "start" : 1622184187153,
+        "stop" : 1622184190848,
+        "duration" : 3695
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Ввести номер телефона: 8000010000",
+        "time" : {
+          "start" : 1622184187153,
+          "stop" : 1622184189446,
+          "duration" : 2293
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+          "time" : {
+            "start" : 1622184188430,
+            "stop" : 1622184189278,
+            "duration" : 848
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Авторизация. Ввод СМС кода подтверждения'",
+          "time" : {
+            "start" : 1622184189347,
+            "stop" : 1622184189382,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "phoneNumber",
+          "value" : "8000010000"
+        } ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ввести СМС код: 3755",
+        "time" : {
+          "start" : 1622184189446,
+          "stop" : 1622184190026,
+          "duration" : 580
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "smsCode",
+          "value" : "3755"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Ожидание загрузки страницы 'Карточка недоступного для заказа товара'",
+        "time" : {
+          "start" : 1622184190028,
+          "stop" : 1622184190650,
+          "duration" : 622
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Ожидание загрузки страницы 'Карточка недоступного для заказа товара'",
+        "time" : {
+          "start" : 1622184190716,
+          "stop" : 1622184190769,
+          "duration" : 53
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "User(countryCode=7, phone=8000010000)"
+      }, {
+        "name" : "context",
+        "value" : "class ru.wildberries.pages.catalog.CatalogDetailNotAvailablePage"
+      } ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить модель карточки товара",
+      "time" : {
+        "start" : 1622184190848,
+        "stop" : 1622184191044,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить бренд товара",
+        "time" : {
+          "start" : 1622184190848,
+          "stop" : 1622184190925,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Получить название товара",
+        "time" : {
+          "start" : 1622184190925,
+          "stop" : 1622184190983,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Получить артикул",
+        "time" : {
+          "start" : 1622184190983,
+          "stop" : 1622184191044,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что товар: 'CatalogItem(vendorCode=9028775)' идентичен товару: 'CatalogItem(vendorCode=9028775)'",
+      "time" : {
+        "start" : 1622184191045,
+        "stop" : 1622184191045,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Артикул",
+        "time" : {
+          "start" : 1622184191045,
+          "stop" : 1622184191045,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Артикул"
+        }, {
+          "name" : "actual",
+          "value" : "9028775"
+        }, {
+          "name" : "expected",
+          "value" : "9028775"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Бренд",
+        "time" : {
+          "start" : 1622184191045,
+          "stop" : 1622184191045,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Бренд"
+        }, {
+          "name" : "actual",
+          "value" : "PROFFI"
+        }, {
+          "name" : "expected",
+          "value" : "PROFFI"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Количество",
+        "time" : {
+          "start" : 1622184191045,
+          "stop" : 1622184191045,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Количество"
+        }, {
+          "name" : "actual",
+          "value" : "0"
+        }, {
+          "name" : "expected",
+          "value" : "0"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "CatalogItem(vendorCode=9028775)"
+      }, {
+        "name" : "expected",
+        "value" : "CatalogItem(vendorCode=9028775)"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622184191047,
+      "stop" : 1622184191128,
+      "duration" : 81
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622184191047,
+        "stop" : 1622184191047,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=addToWaitingListAsUnauthorizedUserThenLogin status=SUCCESS method=WaitingListPageTest.addToWaitingListAsUnauthorizedUserThenLogin(ru.wildberries.models.catalog.CatalogItem)[pri:0, instance:ru.wildberries.tests.waitinglist.WaitingListPageTest@1b19712f] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToWaitingListAsUnauthorizedUserThenLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Лист Ожидания"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.waitinglist.WaitingListPageTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Waiting List Page"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Waiting List"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "CatalogItem(vendorCode=9028775)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c9172a79081cc8b.json",
+  "parameterValues" : [ "CatalogItem(vendorCode=9028775)" ]
+}

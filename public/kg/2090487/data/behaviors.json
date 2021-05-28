@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "System",
+    "children" : [ {
+      "name" : "Self",
+      "children" : [ {
+        "name" : "Test",
+        "children" : [ {
+          "name" : "Check that the string description of the test steps is displayed correctly",
+          "uid" : "c902baf967280bd1",
+          "parentUid" : "f1031b6c191e148d702486798e7c2a8b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622191666975,
+            "stop" : 1622191666985,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1031b6c191e148d702486798e7c2a8b"
+      } ],
+      "uid" : "2d1cd78fa9957c1c0416b8f0240ef3bd"
+    } ],
+    "uid" : "e33d41f06633489a9419f1c087d84455"
+  } ]
+}

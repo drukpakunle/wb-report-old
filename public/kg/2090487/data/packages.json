@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.wildberries.tests.system.SystemSelfTest",
+    "children" : [ {
+      "name" : "selfCheckTest",
+      "uid" : "c902baf967280bd1",
+      "parentUid" : "f2954e564a3104935c8b343a7f429848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622191666975,
+        "stop" : 1622191666985,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.wildberries.tests.system.SystemSelfTest"
+  } ]
+}

@@ -1,0 +1,349 @@
+{
+  "uid" : "c5a00d4dc07b8e13",
+  "name" : "Ввести неполное название бренда ENG. Подсказки содержат название без ошибки",
+  "fullName" : "ru.wildberries.tests.search.SearchWithSuggestTest.enterAnIncompleteLatinVendorName",
+  "historyId" : "ef01c9118c99a1dec1774173f0e3e556",
+  "time" : {
+    "start" : 1622184146470,
+    "stop" : 1622184150693,
+    "duration" : 4223
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1622184145577,
+      "stop" : 1622184146468,
+      "duration" : 891
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Init Test",
+      "time" : {
+        "start" : 1622184146468,
+        "stop" : 1622184146468,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Init User",
+        "time" : {
+          "start" : 1622184146468,
+          "stop" : 1622184146468,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Clean Account",
+        "time" : {
+          "start" : 1622184146468,
+          "stop" : 1622184146468,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "testAttributes",
+          "value" : "@ru.wildberries.annotations.TestAttributes(testId=0, excludedLocales={}, clean=false, auth=false, includedLocales={}, siteClient=MOBILE)"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testMethod",
+        "value" : "public void ru.wildberries.tests.search.SearchWithSuggestTest.enterAnIncompleteLatinVendorName(ru.wildberries.models.catalog.Vendor)"
+      }, {
+        "name" : "testResult",
+        "value" : "[TestResult name={null} status=CREATED method=SearchWithSuggestTest.enterAnIncompleteLatinVendorName(ru.wildberries.models.catalog.Vendor)[pri:0, instance:ru.wildberries.tests.search.SearchWithSuggestTest@2acb1264] output={null}]"
+      } ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открыть главную страницу",
+      "time" : {
+        "start" : 1622184146471,
+        "stop" : 1622184149174,
+        "duration" : 2703
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Открыть страницу: https://www.wildberries.ru",
+        "time" : {
+          "start" : 1622184146471,
+          "stop" : 1622184149174,
+          "duration" : 2703
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Открыть страницу: https://www.wildberries.ru",
+          "time" : {
+            "start" : 1622184146471,
+            "stop" : 1622184147806,
+            "duration" : 1335
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "url",
+            "value" : "https://www.wildberries.ru"
+          } ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622184147807,
+            "stop" : 1622184148977,
+            "duration" : 1170
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "Ожидание загрузки страницы 'Главная'",
+          "time" : {
+            "start" : 1622184149057,
+            "stop" : 1622184149114,
+            "duration" : 57
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://www.wildberries.ru"
+        }, {
+          "name" : "pageClass",
+          "value" : "class ru.wildberries.pages.home.HomePage"
+        } ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Получить список всех поисковых подсказок",
+      "time" : {
+        "start" : 1622184149174,
+        "stop" : 1622184150692,
+        "duration" : 1518
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дождаться появления подсказок",
+        "time" : {
+          "start" : 1622184149919,
+          "stop" : 1622184150573,
+          "duration" : 654
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "searchText",
+        "value" : "Samsun"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить, что все поисковые подсказки содержат строку: samsung или ее транслитерацию",
+      "time" : {
+        "start" : 1622184150693,
+        "stop" : 1622184150693,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Поисковая подсказка 'samsung\nбренд\nsamsung a51\nsamsung a12\nsamsung a32\nsamsung a31\nsamsung a71\nsamsung a52\nsamsung galaxy\nsamsung s21\nsamsung galaxy a12' содержит 'samsung' или 'самсунг'",
+        "time" : {
+          "start" : 1622184150693,
+          "stop" : 1622184150693,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "stepName",
+          "value" : "Поисковая подсказка 'samsung\nбренд\nsamsung a51\nsamsung a12\nsamsung a32\nsamsung a31\nsamsung a71\nsamsung a52\nsamsung galaxy\nsamsung s21\nsamsung galaxy a12' содержит 'samsung' или 'самсунг'"
+        }, {
+          "name" : "value",
+          "value" : "true"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "suggests",
+        "value" : "[samsung\nбренд\nsamsung a51\nsamsung a12\nsamsung a32\nsamsung a31\nsamsung a71\nsamsung a52\nsamsung galaxy\nsamsung s21\nsamsung galaxy a12]"
+      }, {
+        "name" : "expectedString",
+        "value" : "samsung"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622184150694,
+      "stop" : 1622184150824,
+      "duration" : 130
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622184150694,
+        "stop" : 1622184150694,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=enterAnIncompleteLatinVendorName status=SUCCESS method=SearchWithSuggestTest.enterAnIncompleteLatinVendorName(ru.wildberries.models.catalog.Vendor)[pri:0, instance:ru.wildberries.tests.search.SearchWithSuggestTest@2acb1264] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.search.SearchWithSuggestTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.search.SearchWithSuggestTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "enterAnIncompleteLatinVendorName"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Regression Suite (all tests)"
+  }, {
+    "name" : "suite",
+    "value" : "Поиск"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.search.SearchWithSuggestTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-zwfryps-project-4682-concurrent-0"
+  }, {
+    "name" : "thread",
+    "value" : "572@runner-zwfryps-project-4682-concurrent-0.TestNG-tests-1(65)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Regression"
+  }, {
+    "name" : "feature",
+    "value" : "Search"
+  }, {
+    "name" : "story",
+    "value" : "Search with suggest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Vendor(name=Samsung, namingLetters=latin)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5a00d4dc07b8e13.json",
+  "parameterValues" : [ "Vendor(name=Samsung, namingLetters=latin)" ]
+}

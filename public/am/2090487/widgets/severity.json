@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4917703b3d92fada",
+  "name" : "Check that the string description of the test steps is displayed correctly",
+  "time" : {
+    "start" : 1622191664002,
+    "stop" : 1622191664014,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

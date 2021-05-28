@@ -1,0 +1,104 @@
+{
+  "uid" : "4917703b3d92fada",
+  "name" : "Check that the string description of the test steps is displayed correctly",
+  "fullName" : "ru.wildberries.tests.system.SystemSelfTest.selfCheckTest",
+  "historyId" : "63419683fbc3829bae3fffedd1de33f0",
+  "time" : {
+    "start" : 1622191664002,
+    "stop" : 1622191664014,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1622191664063,
+      "stop" : 1622191664084,
+      "duration" : 21
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Attach Data To Report",
+      "time" : {
+        "start" : 1622191664079,
+        "stop" : 1622191664082,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "testResult",
+        "value" : "[TestResult name=selfCheckTest status=SUCCESS method=SystemSelfTest.selfCheckTest()[pri:0, instance:ru.wildberries.tests.system.SystemSelfTest@70d3cdbf] output={null}]"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.wildberries.tests.system.SystemSelfTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.wildberries.tests.system.SystemSelfTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "selfCheckTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Self-Check Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Check that HTML report build correctly"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.wildberries.tests.system.SystemSelfTest"
+  }, {
+    "name" : "host",
+    "value" : "runner-p26hkai-project-4682-concurrent-2"
+  }, {
+    "name" : "thread",
+    "value" : "569@runner-p26hkai-project-4682-concurrent-2.TestNG-tests-1(29)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "System"
+  }, {
+    "name" : "feature",
+    "value" : "Self"
+  }, {
+    "name" : "story",
+    "value" : "Test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4917703b3d92fada.json",
+  "parameterValues" : [ ]
+}

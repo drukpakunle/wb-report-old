@@ -1,0 +1,1893 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Regression Suite (all tests)",
+    "children" : [ {
+      "name" : "Общие Тесты",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.common.MainMenuTest",
+        "children" : [ {
+          "name" : "Переход по всем ссылкам главного меню",
+          "uid" : "18bf27bea95ec2c5",
+          "parentUid" : "8c5e64ec664ce0adb6a1e987c720c989",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622180954084,
+            "stop" : 1622180968217,
+            "duration" : 14133
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8c5e64ec664ce0adb6a1e987c720c989"
+      } ],
+      "uid" : "6c1663ea010fcefe232f744526017989"
+    }, {
+      "name" : "Личный Кабинет",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.account.AccountCommonTest",
+        "children" : [ {
+          "name" : "Переход на страницу 'Мои данные'",
+          "uid" : "644f0b57c7fa2063",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622180989222,
+            "stop" : 1622181001453,
+            "duration" : 12231
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Выйти из Аккаунта",
+          "uid" : "a25d3a2d6eb993e1",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181019207,
+            "stop" : 1622181031951,
+            "duration" : 12744
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу выбора города",
+          "uid" : "71cdab792e54a8e8",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181049550,
+            "stop" : 1622181061447,
+            "duration" : 11897
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу выбора страны",
+          "uid" : "ef1e0ba79d6415a7",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181083401,
+            "stop" : 1622181095762,
+            "duration" : 12361
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Скидка'",
+          "uid" : "deb4e290dbfa4f9",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181113219,
+            "stop" : 1622181125193,
+            "duration" : 11974
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Отзывы и Вопросы'",
+          "uid" : "1479e605f610c3d1",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181142487,
+            "stop" : 1622181154539,
+            "duration" : 12052
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Любимые бренды'",
+          "uid" : "53a12308735e8319",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181171338,
+            "stop" : 1622181183446,
+            "duration" : 12108
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Уведомления'",
+          "uid" : "9221025871f959ea",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181200639,
+            "stop" : 1622181212592,
+            "duration" : 11953
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Пункты Самовывоза'",
+          "uid" : "daa37e51787dd956",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181229810,
+            "stop" : 1622181243431,
+            "duration" : 13621
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Отложенные'",
+          "uid" : "69c680b818be79fc",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181260627,
+            "stop" : 1622181272771,
+            "duration" : 12144
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Покупки'",
+          "uid" : "42b478c828435916",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181290123,
+            "stop" : 1622181302156,
+            "duration" : 12033
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Доставки'",
+          "uid" : "2f1fd01a7eddb4b9",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181319533,
+            "stop" : 1622181331594,
+            "duration" : 12061
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Видео'",
+          "uid" : "1f139d5fda020824",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181348753,
+            "stop" : 1622181360657,
+            "duration" : 11904
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'Лист Ожидания'",
+          "uid" : "e8a0544a0d1fd4dd",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181378218,
+            "stop" : 1622181390542,
+            "duration" : 12324
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход на страницу 'История операций'",
+          "uid" : "17a1cf09c82b3cc7",
+          "parentUid" : "5f33de55d0dc5ed34a02e34838b32590",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181408479,
+            "stop" : 1622181420749,
+            "duration" : 12270
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5f33de55d0dc5ed34a02e34838b32590"
+      } ],
+      "uid" : "19bdad019a3e4062e6ada56a4e819572"
+    }, {
+      "name" : "Корзина",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.basket.AuthorizedUserBasketTest",
+        "children" : [ {
+          "name" : "Добавить товар в Корзину с Главной страницы. В Корзине уже есть данный товар",
+          "uid" : "e0a2cf681223383f",
+          "parentUid" : "d6f1cbf6d60e66d8011c7306af0f637b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181438514,
+            "stop" : 1622181492820,
+            "duration" : 54306
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Мультивыбор - Иконка 'Удалить' - Отменить",
+          "uid" : "1451ded3546ff02e",
+          "parentUid" : "d6f1cbf6d60e66d8011c7306af0f637b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181509831,
+            "stop" : 1622181561902,
+            "duration" : 52071
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Мультивыбор - Перенести в Отложенные ПОСЛЕДНИЙ товар В НАЛИЧИИ",
+          "uid" : "d1715978500f4ac",
+          "parentUid" : "d6f1cbf6d60e66d8011c7306af0f637b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181579110,
+            "stop" : 1622181654248,
+            "duration" : 75138
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        }, {
+          "name" : "Мультивыбор - Чек-боксы",
+          "uid" : "2059b44e94df59e3",
+          "parentUid" : "d6f1cbf6d60e66d8011c7306af0f637b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181671260,
+            "stop" : 1622181722789,
+            "duration" : 51529
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Корзина - Войти в свой аккаунт АНРЕГ",
+          "uid" : "1f0ff3b18359bcd4",
+          "parentUid" : "d6f1cbf6d60e66d8011c7306af0f637b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181723675,
+            "stop" : 1622181753581,
+            "duration" : 29906
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6f1cbf6d60e66d8011c7306af0f637b"
+      }, {
+        "name" : "ru.wildberries.tests.basket.BasketToPonedTest",
+        "children" : [ {
+          "name" : "Мультивыбор - Иконка 'В Отложенные'. Перенос товаров в Отложенные",
+          "uid" : "6d52a7e261eaebd2",
+          "parentUid" : "896411f03284df5c357489e7d1e49acf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181771243,
+            "stop" : 1622181842770,
+            "duration" : 71527
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Мультивыбор - Иконка 'В Отложенные' - Отменить",
+          "uid" : "97012907a024c9c4",
+          "parentUid" : "896411f03284df5c357489e7d1e49acf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181859733,
+            "stop" : 1622181912100,
+            "duration" : 52367
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Мультивыбор - Перенести в Отложенные один/несколько товаров В НАЛИЧИИ",
+          "uid" : "80bf1bd57636dee7",
+          "parentUid" : "896411f03284df5c357489e7d1e49acf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622181929560,
+            "stop" : 1622182005604,
+            "duration" : 76044
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        } ],
+        "uid" : "896411f03284df5c357489e7d1e49acf"
+      }, {
+        "name" : "ru.wildberries.tests.basket.UnauthorizedUserBasketTest",
+        "children" : [ {
+          "name" : "В корзине нет товаров",
+          "uid" : "143b257aef8e14a0",
+          "parentUid" : "74eb319eb3c25b3bd80a118cf800567a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182006960,
+            "stop" : 1622182015234,
+            "duration" : 8274
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "74eb319eb3c25b3bd80a118cf800567a"
+      } ],
+      "uid" : "a1620d6f081084bc395e528094ca2d69"
+    }, {
+      "name" : "Каталог",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.catalog.CommonCatalogTest",
+        "children" : [ {
+          "name" : "Добавить в отложенные c КТ",
+          "uid" : "361ebd52ce7d220",
+          "parentUid" : "719829af236fb0435b3dd7cec3fbb936",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182032222,
+            "stop" : 1622182037333,
+            "duration" : 5111
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        } ],
+        "uid" : "719829af236fb0435b3dd7cec3fbb936"
+      } ],
+      "uid" : "6566606021b5b7341f4e55f260a83016"
+    }, {
+      "name" : "Главная Страница",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.home.HomePageCommonTest",
+        "children" : [ {
+          "name" : "Переход в раздел 'Популярные бренды' (Кнопка 'См. всё')",
+          "uid" : "d8ec3e7e0dfe7db7",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182038204,
+            "stop" : 1622182045729,
+            "duration" : 7525
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Переход в КТ с главной страницы",
+          "uid" : "74fed2cad48ebcac",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182046626,
+            "stop" : 1622182050605,
+            "duration" : 3979
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Футер - Скачайте наше приложение Huawei App Gallery",
+          "uid" : "88748a9e27459446",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182051491,
+            "stop" : 1622182055696,
+            "duration" : 4205
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Футер - Скачайте наше приложение iOS",
+          "uid" : "496645b50df3dac",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182056594,
+            "stop" : 1622182061345,
+            "duration" : 4751
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Футер - Основная версия сайта",
+          "uid" : "f229e80bb1ecff51",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182062230,
+            "stop" : 1622182066044,
+            "duration" : 3814
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Футер - Скачайте наше приложение Google Play",
+          "uid" : "beb10744e8588ac2",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182067022,
+            "stop" : 1622182071657,
+            "duration" : 4635
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Наличие кнопки прокрутки вверх, при вертикальном скроллинге",
+          "uid" : "4d1f175cf0879dec",
+          "parentUid" : "645d21be9224c592296b779231eee4f7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182072606,
+            "stop" : 1622182105425,
+            "duration" : 32819
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "645d21be9224c592296b779231eee4f7"
+      } ],
+      "uid" : "2ade9a063be5f37ca97ff22da091759c"
+    }, {
+      "name" : "Отложенные",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.poned.CommonPonedTest",
+        "children" : [ {
+          "name" : "Перенести товар из отложенных в корзину, используя мультиселект",
+          "uid" : "2335a5a15764c0bb",
+          "parentUid" : "c4741ce611449bed6fec5dda6296b757",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182122678,
+            "stop" : 1622182147090,
+            "duration" : 24412
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c4741ce611449bed6fec5dda6296b757"
+      }, {
+        "name" : "ru.wildberries.tests.poned.FiltersPonedPageTest",
+        "children" : [ {
+          "name" : "Фильтр по группе 'Все товары'. Фильтр по Группе товаров, установленной пользователем",
+          "uid" : "6ae831a29ef600e5",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182164138,
+            "stop" : 1622182178463,
+            "duration" : 14325
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Фильтр по группе товаров - Создать новую группу: Название - Отменить",
+          "uid" : "ac19121ffc1a5080",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182195861,
+            "stop" : 1622182199912,
+            "duration" : 4051
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Фильтр по группе товаров - Создать новую группу: Название пустое",
+          "uid" : "28ad691b936aee8",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182217323,
+            "stop" : 1622182221153,
+            "duration" : 3830
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Фильтр по группе товаров - Создать новую группу: Название на языке локали",
+          "uid" : "f14770be90c86ec8",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182238301,
+            "stop" : 1622182240781,
+            "duration" : 2480
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Фильтр по группе товаров - Создать новую группу: Название < 17 символов",
+          "uid" : "1b686b766d8f8523",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182258262,
+            "stop" : 1622182260886,
+            "duration" : 2624
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Фильтр по группе товаров - Создать новую группу: Название > 17 символов",
+          "uid" : "7612b60282b9c32b",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182278342,
+            "stop" : 1622182280679,
+            "duration" : 2337
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Фильтр по группе товаров - Нельзя создать более 1-й группы с одинаковым названием",
+          "uid" : "d7e82990ffb00cfa",
+          "parentUid" : "13f81d2e5ffaa694f514c55ddc077187",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182297752,
+            "stop" : 1622182301622,
+            "duration" : 3870
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "13f81d2e5ffaa694f514c55ddc077187"
+      }, {
+        "name" : "ru.wildberries.tests.poned.MyGroupsPageTest",
+        "children" : [ {
+          "name" : "Значок 'Папка' - Создать новую группу: Название - Отменить",
+          "uid" : "37e38d3520e01d8a",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182319019,
+            "stop" : 1622182322841,
+            "duration" : 3822
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Создать новую группу: Название пустое",
+          "uid" : "61de5b3a8011f16",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182339857,
+            "stop" : 1622182344266,
+            "duration" : 4409
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Создать новую группу: Название на языке локали",
+          "uid" : "dcb9a09ddd224a9e",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182361262,
+            "stop" : 1622182364199,
+            "duration" : 2937
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Создать новую группу: Название < 17 символов",
+          "uid" : "4530fcd2867f796a",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182381670,
+            "stop" : 1622182384618,
+            "duration" : 2948
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Создать новую группу: Название > 17 символов - Алерт",
+          "uid" : "cbfa4d0f221b4ce0",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182401837,
+            "stop" : 1622182404408,
+            "duration" : 2571
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Нельзя создать более 1-й группы с одинаковым названием",
+          "uid" : "96ee96459c6904aa",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182421310,
+            "stop" : 1622182425740,
+            "duration" : 4430
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Кебаб-меню - Редактировать - Удалить",
+          "uid" : "7d002e96f2f4bd89",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182443145,
+            "stop" : 1622182448752,
+            "duration" : 5607
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Кебаб-меню - Удалить несколько групп подряд",
+          "uid" : "c290e9f2044522c2",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182465589,
+            "stop" : 1622182475068,
+            "duration" : 9479
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Кебаб-меню - Редактировать",
+          "uid" : "8dd9aa2a2997c68b",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182492972,
+            "stop" : 1622182497572,
+            "duration" : 4600
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Значок 'Папка' - Кебаб-меню - Редактировать - Отменить",
+          "uid" : "ff39a341d1eac66c",
+          "parentUid" : "b6e2716881fec96208ddbfa281dc22ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182515260,
+            "stop" : 1622182519031,
+            "duration" : 3771
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b6e2716881fec96208ddbfa281dc22ab"
+      }, {
+        "name" : "ru.wildberries.tests.poned.PonedPageTest",
+        "children" : [ {
+          "name" : "Мультивыбор - Удалить один / несколько товаров НЕ В НАЛИЧИИ",
+          "uid" : "c568c53501e035ae",
+          "parentUid" : "5d6e76832fcd6fece16b5bb7d2dec11c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182536442,
+            "stop" : 1622182544533,
+            "duration" : 8091
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Иконка 'Удалить' на КТ для товара В НАЛИЧИИ",
+          "uid" : "36e004d8ec29e85f",
+          "parentUid" : "5d6e76832fcd6fece16b5bb7d2dec11c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182561308,
+            "stop" : 1622182569157,
+            "duration" : 7849
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        }, {
+          "name" : "Иконка 'Удалить' на КТ для товара НЕ В НАЛИЧИИ",
+          "uid" : "e19146f868ef9487",
+          "parentUid" : "5d6e76832fcd6fece16b5bb7d2dec11c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182586338,
+            "stop" : 1622182596375,
+            "duration" : 10037
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Мультивыбор - Удалить Товар В НАЛИЧИИ + товар НЕ В НАЛИЧИИ",
+          "uid" : "f6fb0c54f165ae11",
+          "parentUid" : "5d6e76832fcd6fece16b5bb7d2dec11c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182613557,
+            "stop" : 1622182622428,
+            "duration" : 8871
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Кебаб-меню на КТ - Переместить в группу - Название группы на КТ изменилось",
+          "uid" : "cc3892e39b03680d",
+          "parentUid" : "5d6e76832fcd6fece16b5bb7d2dec11c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182639841,
+            "stop" : 1622182650983,
+            "duration" : 11142
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        }, {
+          "name" : "Иконка 'В Корзину' на КТ",
+          "uid" : "802079d194ee00ad",
+          "parentUid" : "5d6e76832fcd6fece16b5bb7d2dec11c",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622182668074,
+            "stop" : 1622182671566,
+            "duration" : 3492
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        } ],
+        "uid" : "5d6e76832fcd6fece16b5bb7d2dec11c"
+      }, {
+        "name" : "ru.wildberries.tests.poned.PonedToBasketTest",
+        "children" : [ {
+          "name" : "Мультивыбор - Перенести в Корзину товар В НАЛИЧИИ + товар НЕ В НАЛИЧИИ",
+          "uid" : "ddd55c9b709603f2",
+          "parentUid" : "558f3298596f127813b00dfb79a93dd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182689030,
+            "stop" : 1622182713589,
+            "duration" : 24559
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Отложенные. Перенести в Корзину один товар в наличии",
+          "uid" : "dad6e4d66ecf2ae5",
+          "parentUid" : "558f3298596f127813b00dfb79a93dd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182731011,
+            "stop" : 1622182752324,
+            "duration" : 21313
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        }, {
+          "name" : "Отложенные. Мультивыбор. Перенести в Корзину два товар в наличии",
+          "uid" : "818143099f47b3a3",
+          "parentUid" : "558f3298596f127813b00dfb79a93dd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182769326,
+            "stop" : 1622182791645,
+            "duration" : 22319
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Отложенные - Мультивыбор - Перенести в Корзину товар В НАЛИЧИИ + товар НЕ В НАЛИЧИИ. В Корзине уже есть данный товар",
+          "uid" : "61c1c03fb9ef4df9",
+          "parentUid" : "558f3298596f127813b00dfb79a93dd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182808835,
+            "stop" : 1622182883222,
+            "duration" : 74387
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Отложенные - Мультивыбор - Перенести в Корзину один/несколько товаров В НАЛИЧИИ. В Корзине уже есть данный товар",
+          "uid" : "f4c6c3a84778023",
+          "parentUid" : "558f3298596f127813b00dfb79a93dd8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182900643,
+            "stop" : 1622182973628,
+            "duration" : 72985
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        } ],
+        "uid" : "558f3298596f127813b00dfb79a93dd8"
+      }, {
+        "name" : "ru.wildberries.tests.poned.ProductCardPageTest",
+        "children" : [ {
+          "name" : "Отложенные - Иконка 'В Корзину' на КТ. В Корзине уже есть данный товар",
+          "uid" : "643dd4c0c03f1026",
+          "parentUid" : "ca12000aa5047daffa288a1ddaa2ee99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622182990794,
+            "stop" : 1622183061690,
+            "duration" : 70896
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        }, {
+          "name" : "Перейти в КТ со страницы отложенных товаров",
+          "uid" : "8bbc54f181390ac3",
+          "parentUid" : "ca12000aa5047daffa288a1ddaa2ee99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183079104,
+            "stop" : 1622183082593,
+            "duration" : 3489
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        } ],
+        "uid" : "ca12000aa5047daffa288a1ddaa2ee99"
+      } ],
+      "uid" : "b61a3068f58830a45d3ebc0400f882cb"
+    }, {
+      "name" : "Редиректы",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.redirects.RedirectsWithAuthTest",
+        "children" : [ {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "15b2f586c3bfe61d",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183083504,
+            "stop" : 1622183111459,
+            "duration" : 27955
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "70d8948e4791b131",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183112471,
+            "stop" : 1622183131963,
+            "duration" : 19492
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/details, mobileUrl=https://www.wildberries.ru/lk/details)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "eade15b5e318e67b",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183132805,
+            "stop" : 1622183152536,
+            "duration" : 19731
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/mysubscribes, mobileUrl=https://www.wildberries.ru/lk/details/mysubscribes)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "852a138d47714153",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183153614,
+            "stop" : 1622183172881,
+            "duration" : 19267
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/mydiscount, mobileUrl=https://www.wildberries.ru/lk/mydiscount)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "7bbc0c4d7b038806",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183174003,
+            "stop" : 1622183193541,
+            "duration" : 19538
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/mywallet, mobileUrl=https://www.wildberries.ru/lk/mywallet)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "d620638968fc4a13",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183194369,
+            "stop" : 1622183215088,
+            "duration" : 20719
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/newsfeed/events, mobileUrl=https://www.wildberries.ru/lk/newsfeed/events)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "14bac36ba471d188",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183216107,
+            "stop" : 1622183240722,
+            "duration" : 24615
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/newsfeed, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "599ea2f901267799",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183242008,
+            "stop" : 1622183269065,
+            "duration" : 27057
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/comfort, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "595b3d6379d2f3d6",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622183295369,
+            "stop" : 1622183343870,
+            "duration" : 48501
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/communications, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "2819130349949aee",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622183344814,
+            "stop" : 1622183363621,
+            "duration" : 18807
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/communications/archive, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "14c40c48c0161f5a",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622183364718,
+            "stop" : 1622183413648,
+            "duration" : 48930
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/claims, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "6cac03599d6a811d",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622183443913,
+            "stop" : 1622183462654,
+            "duration" : 18741
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myrefunds, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "9068b55587576033",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622183463843,
+            "stop" : 1622183513447,
+            "duration" : 49604
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/refund, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "6db3d21a065861b4",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183514420,
+            "stop" : 1622183533651,
+            "duration" : 19231
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/waitinglist, mobileUrl=https://www.wildberries.ru/lk/waitinglist)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "cb2b315de0a7e858",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183534457,
+            "stop" : 1622183554337,
+            "duration" : 19880
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/poned, mobileUrl=https://www.wildberries.ru/lk/poned)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "f22357c8d477d485",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183555176,
+            "stop" : 1622183577261,
+            "duration" : 22085
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/mysafety, mobileUrl=https://www.wildberries.ru/lk/sessions)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "5baff6d6df8e2432",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183578068,
+            "stop" : 1622183597136,
+            "duration" : 19068
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/discussion/feedback, mobileUrl=https://www.wildberries.ru/lk/discussions)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "6ba2e56ac5f04c4",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183598084,
+            "stop" : 1622183624936,
+            "duration" : 26852
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/mylooks, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "18b1205f8eeca531",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183625934,
+            "stop" : 1622183652331,
+            "duration" : 26397
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myorders, mobileUrl=https://www.wildberries.ru/lk)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "54fb4f118a0034bc",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183653257,
+            "stop" : 1622183672744,
+            "duration" : 19487
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/myorders/delivery, mobileUrl=https://www.wildberries.ru/lk/myorders/delivery)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "5d3ab978342d0774",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183673561,
+            "stop" : 1622183698044,
+            "duration" : 24483
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/historygoods, mobileUrl=https://www.wildberries.ru/lk/historygoods)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "8dc8e23fa4d15ad5",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183699280,
+            "stop" : 1622183718847,
+            "duration" : 19567
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/receipts/get?query, mobileUrl=https://www.wildberries.ru/lk/mywallet?query)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "bc050cb1ea533661",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183719872,
+            "stop" : 1622183740205,
+            "duration" : 20333
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://lk.wildberries.ru/favoritebrands, mobileUrl=https://www.wildberries.ru/lk/favoritebrands)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "5de4d6db8e106f8f",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183741028,
+            "stop" : 1622183762187,
+            "duration" : 21159
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/catalog/9605867/detail.aspx, mobileUrl=https://www.wildberries.ru/catalog/9605867/detail.aspx)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "2b8495cdcb181576",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622183763025,
+            "stop" : 1622183783803,
+            "duration" : 20778
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/presscenter, mobileUrl=https://www.wildberries.ru)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "b1d52d40a0ea827d",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183784983,
+            "stop" : 1622183805683,
+            "duration" : 20700
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/catalog/9316843/otzyvy, mobileUrl=https://www.wildberries.ru/catalog/9316843/detail.aspx/feedback)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "8eb30a31e43199ca",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183806641,
+            "stop" : 1622183826674,
+            "duration" : 20033
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/catalog/9316843/voprosy, mobileUrl=https://www.wildberries.ru/catalog/9316843/detail.aspx/questions)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную с авторизацией",
+          "uid" : "d13394d61838f9bb",
+          "parentUid" : "c9639b8c266f0ab90cc3c710de82e0ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183827472,
+            "stop" : 1622183847512,
+            "duration" : 20040
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=true, desktopUrl=https://www.wildberries.ru/promotions, mobileUrl=https://www.wildberries.ru/promotions)" ]
+        } ],
+        "uid" : "c9639b8c266f0ab90cc3c710de82e0ae"
+      }, {
+        "name" : "ru.wildberries.tests.redirects.RedirectsWithoutAuthTest",
+        "children" : [ {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "9ce4786802cfa05e",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183848471,
+            "stop" : 1622183852802,
+            "duration" : 4331
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://security.wildberries.ru/login, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "ad323c94d06ae321",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183853662,
+            "stop" : 1622183855792,
+            "duration" : 2130
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "6b8503afede005f6",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183856715,
+            "stop" : 1622183858849,
+            "duration" : 2134
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/details, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "b0c6b0b2b426747d",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183859703,
+            "stop" : 1622183862052,
+            "duration" : 2349
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/mysubscribes, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "e240e4c0f4ad6b26",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183862858,
+            "stop" : 1622183865011,
+            "duration" : 2153
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/mydiscount, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "fab79ba04dbe0bd0",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183865861,
+            "stop" : 1622183868071,
+            "duration" : 2210
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/mywallet, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "5af67888d043e66b",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183869067,
+            "stop" : 1622183871357,
+            "duration" : 2290
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/newsfeed/events, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "33f26e29de656e7f",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622183872156,
+            "stop" : 1622183881756,
+            "duration" : 9600
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/newsfeed, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "8b139d61a797710b",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622183882814,
+            "stop" : 1622183891992,
+            "duration" : 9178
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/comfort, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "7afcc7dc4c05550d",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183903595,
+            "stop" : 1622183905581,
+            "duration" : 1986
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/communications, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "3af6ee075be338bc",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183906536,
+            "stop" : 1622183908574,
+            "duration" : 2038
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/communications/archive, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "410e3ed7059b36b8",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183909376,
+            "stop" : 1622183913545,
+            "duration" : 4169
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/claims, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "fe47327a35cd576d",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183925020,
+            "stop" : 1622183927137,
+            "duration" : 2117
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/myrefunds, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "50b31a869a12c706",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183928116,
+            "stop" : 1622183930182,
+            "duration" : 2066
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/refund, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "fdd5312172693a6d",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183931124,
+            "stop" : 1622183935363,
+            "duration" : 4239
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/waitinglist, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "59b5320139d1c066",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183936215,
+            "stop" : 1622183940356,
+            "duration" : 4141
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/poned, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "dcf0e48f9e12ac78",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183941173,
+            "stop" : 1622183943383,
+            "duration" : 2210
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/mysafety, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "416a8e73e1e81063",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183944312,
+            "stop" : 1622183946370,
+            "duration" : 2058
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/discussion/feedback, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "71a0259739203b2e",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622183947215,
+            "stop" : 1622183956449,
+            "duration" : 9234
+          },
+          "flaky" : true,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/mylooks, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "2fcc60bf633964a9",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622183957381,
+            "stop" : 1622183964650,
+            "duration" : 7269
+          },
+          "flaky" : true,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/myorders, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "1ebc749bd354a58",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183965754,
+            "stop" : 1622183968032,
+            "duration" : 2278
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/myorders/delivery, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "18bce124c121a886",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183968831,
+            "stop" : 1622183973220,
+            "duration" : 4389
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/historygoods, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "5f8def799cb08a07",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183974200,
+            "stop" : 1622183976466,
+            "duration" : 2266
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/receipts/get?query, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "401b4b837c728aa9",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183977432,
+            "stop" : 1622183981846,
+            "duration" : 4414
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://lk.wildberries.ru/favoritebrands, mobileUrl=https://www.wildberries.ru/security/login)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "6378d358b12338d",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183982829,
+            "stop" : 1622183985906,
+            "duration" : 3077
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/catalog/9605867/detail.aspx, mobileUrl=https://www.wildberries.ru/catalog/9605867/detail.aspx)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "4fd2f4cc9bedda90",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622183986885,
+            "stop" : 1622183991643,
+            "duration" : 4758
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/presscenter, mobileUrl=https://www.wildberries.ru)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "aece8f9f58a291a7",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183992703,
+            "stop" : 1622183995576,
+            "duration" : 2873
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/catalog/9316744/otzyvy, mobileUrl=https://www.wildberries.ru/catalog/9316744/detail.aspx/feedback)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "bd48ae25f0c5deda",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622183996369,
+            "stop" : 1622184001583,
+            "duration" : 5214
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/catalog/9316744/voprosy, mobileUrl=https://www.wildberries.ru/catalog/9316744/detail.aspx/questions)" ]
+        }, {
+          "name" : "Редирект с десктопной версии на мобильную без авторизации",
+          "uid" : "2686ed4d7ee86226",
+          "parentUid" : "ea09fc4436563fbb41eb7d1a76b3ad80",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184002559,
+            "stop" : 1622184007142,
+            "duration" : 4583
+          },
+          "flaky" : false,
+          "parameters" : [ "RedirectRule(auth=false, desktopUrl=https://www.wildberries.ru/promotions, mobileUrl=https://www.wildberries.ru/promotions)" ]
+        } ],
+        "uid" : "ea09fc4436563fbb41eb7d1a76b3ad80"
+      } ],
+      "uid" : "942a09d4bef177d2dbd49cd77064131e"
+    }, {
+      "name" : "Поиск",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.search.HomePageSearchTest",
+        "children" : [ {
+          "name" : "Ввести артикул. Переход в карточку товара",
+          "uid" : "efe200131fee2861",
+          "parentUid" : "f07fbccbf39805c63f6cf2b0c18ccacb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184008192,
+            "stop" : 1622184015491,
+            "duration" : 7299
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        } ],
+        "uid" : "f07fbccbf39805c63f6cf2b0c18ccacb"
+      }, {
+        "name" : "ru.wildberries.tests.search.PonedPageSearchTest",
+        "children" : [ {
+          "name" : "Серчбар. Корректный поиск по артикулу / названию / бренду / размеру",
+          "uid" : "c175eab56f93be4f",
+          "parentUid" : "327c73fc1d4c5aae438e77d4da4ea687",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622184032864,
+            "stop" : 1622184066926,
+            "duration" : 34062
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=5275302)" ]
+        }, {
+          "name" : "Серчбар. Некорректный поиск",
+          "uid" : "3c9f5d30103c31ca",
+          "parentUid" : "327c73fc1d4c5aae438e77d4da4ea687",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184083819,
+            "stop" : 1622184095275,
+            "duration" : 11456
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        }, {
+          "name" : "Серчбар - Удалить поисковый запрос через Значок 'Крестик'",
+          "uid" : "52b99f79f923f875",
+          "parentUid" : "327c73fc1d4c5aae438e77d4da4ea687",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184112782,
+            "stop" : 1622184122302,
+            "duration" : 9520
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        } ],
+        "uid" : "327c73fc1d4c5aae438e77d4da4ea687"
+      }, {
+        "name" : "ru.wildberries.tests.search.SearchByVendorCodeTest",
+        "children" : [ {
+          "name" : "Поиск по артикулу (в наличии). Неавторизованный пользователь. Переход в карточку товара",
+          "uid" : "ca3f5bcce53d7116",
+          "parentUid" : "71e46984ea89abdbb91637d4abeb7eb0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184123157,
+            "stop" : 1622184129288,
+            "duration" : 6131
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Поиск по артикулу (нет в наличии). Неавторизованный пользователь. Переход в карточку товара",
+          "uid" : "e41c66eeb3583a05",
+          "parentUid" : "71e46984ea89abdbb91637d4abeb7eb0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184130107,
+            "stop" : 1622184135023,
+            "duration" : 4916
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Поиск по артикулу (артикул не существует). Неавторизованный пользователь. Переход на страницу 'По вашему запросу ничего не найдено'",
+          "uid" : "48630f45de992e45",
+          "parentUid" : "71e46984ea89abdbb91637d4abeb7eb0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184135824,
+            "stop" : 1622184140182,
+            "duration" : 4358
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=354365676557868)" ]
+        } ],
+        "uid" : "71e46984ea89abdbb91637d4abeb7eb0"
+      }, {
+        "name" : "ru.wildberries.tests.search.SearchWithSuggestTest",
+        "children" : [ {
+          "name" : "Ввести неполное название бренда РУС. Подсказки содержат название без ошибки",
+          "uid" : "5d1a9df6d7e7e57b",
+          "parentUid" : "a7d11741c8c5ef807bdd72e3a72812f3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184141366,
+            "stop" : 1622184145437,
+            "duration" : 4071
+          },
+          "flaky" : false,
+          "parameters" : [ "Vendor(name=ОРТОДОН, namingLetters=cyrillic)" ]
+        }, {
+          "name" : "Ввести неполное название бренда ENG. Подсказки содержат название без ошибки",
+          "uid" : "c5a00d4dc07b8e13",
+          "parentUid" : "a7d11741c8c5ef807bdd72e3a72812f3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184146470,
+            "stop" : 1622184150693,
+            "duration" : 4223
+          },
+          "flaky" : false,
+          "parameters" : [ "Vendor(name=Samsung, namingLetters=latin)" ]
+        }, {
+          "name" : "Ввести ENG название бренда на РУС. Подсказки содержат название без ошибки",
+          "uid" : "ce61083f1a789bc9",
+          "parentUid" : "a7d11741c8c5ef807bdd72e3a72812f3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184151963,
+            "stop" : 1622184156450,
+            "duration" : 4487
+          },
+          "flaky" : false,
+          "parameters" : [ "Vendor(name=Samsung, namingLetters=latin)" ]
+        }, {
+          "name" : "Ввести с ошибкой название бренда ENG. Подсказки содержат название без ошибки",
+          "uid" : "af3723d7b3e8d525",
+          "parentUid" : "a7d11741c8c5ef807bdd72e3a72812f3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184157797,
+            "stop" : 1622184162356,
+            "duration" : 4559
+          },
+          "flaky" : false,
+          "parameters" : [ "Vendor(name=Samsung, namingLetters=latin)" ]
+        } ],
+        "uid" : "a7d11741c8c5ef807bdd72e3a72812f3"
+      } ],
+      "uid" : "94c230707492da81855ea7b0af37c934"
+    }, {
+      "name" : "Лист Ожидания",
+      "children" : [ {
+        "name" : "ru.wildberries.tests.waitinglist.WaitingListPageTest",
+        "children" : [ {
+          "name" : "Добавить в лист ожидания с КТ. Авторизованный пользователь",
+          "uid" : "28b96dd9b6e8ddf7",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184180042,
+            "stop" : 1622184182768,
+            "duration" : 2726
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Добавить в лист ожидания с КТ. Неавторизованный пользователь. Войти в аккаунт. После логина редирект в КТ",
+          "uid" : "8c9172a79081cc8b",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184183588,
+            "stop" : 1622184191045,
+            "duration" : 7457
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Добавить товар в лист ожидания. Перелогиниться. Проверить, что товары в листе ожидания присутствуют",
+          "uid" : "e4983a1e7362f605",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184208199,
+            "stop" : 1622184226354,
+            "duration" : 18155
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Мультивыбор - Удалить один / несколько товаров НЕ В НАЛИЧИИ",
+          "uid" : "170863648790fad2",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184244003,
+            "stop" : 1622184246900,
+            "duration" : 2897
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=9028775), CatalogItem(vendorCode=451345)]" ]
+        }, {
+          "name" : "Лист ожидания. Перейти в КТ",
+          "uid" : "4f9c0d6983a347c1",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184264402,
+            "stop" : 1622184266860,
+            "duration" : 2458
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Переход в лист ожидания из ЛК",
+          "uid" : "de0d86278eee233b",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184284022,
+            "stop" : 1622184291164,
+            "duration" : 7142
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Прямой переход в лист ожидания для неавторизованного пользователя. Редирект на страницу авторизации",
+          "uid" : "ae4e92198240d273",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184292096,
+            "stop" : 1622184296370,
+            "duration" : 4274
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Лист Ожидания. Поиск по артикулу",
+          "uid" : "cb66e4de46ac1b12",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184313315,
+            "stop" : 1622184316449,
+            "duration" : 3134
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=9028775), CatalogItem(vendorCode=451345)]" ]
+        }, {
+          "name" : "Мультивыбор. Выбрать несколько товаров чекбоксом на КТ",
+          "uid" : "acdfbbe679d480f2",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184333871,
+            "stop" : 1622184336648,
+            "duration" : 2777
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=9028775), CatalogItem(vendorCode=451345)]" ]
+        }, {
+          "name" : "Несколько добавлений в лист ожидания одного товара НЕ увеличивают количество товаров в листе ожидания",
+          "uid" : "46ad4482c692e4e7",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184353649,
+            "stop" : 1622184356286,
+            "duration" : 2637
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        }, {
+          "name" : "Лист ожидания. Иконка 'Удалить' на КТ",
+          "uid" : "4686d30c8446fa25",
+          "parentUid" : "3ad64e50cadf6f97f200c5532acb6901",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184373740,
+            "stop" : 1622184376051,
+            "duration" : 2311
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=9028775)" ]
+        } ],
+        "uid" : "3ad64e50cadf6f97f200c5532acb6901"
+      }, {
+        "name" : "ru.wildberries.tests.waitinglist.WaitingListToBasketTest",
+        "children" : [ {
+          "name" : "Лист ожидания - Мультивыбор - Перенести в Корзину товар В НАЛИЧИИ + товар НЕ В НАЛИЧИИ",
+          "uid" : "6231f97186a01839",
+          "parentUid" : "747ee2721519c335b214547a19ef97c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184393094,
+            "stop" : 1622184415531,
+            "duration" : 22437
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Лист ожидания - Мультивыбор - Перенести в Корзину один / несколько товаров В НАЛИЧИИ + в Корзине уже есть данный товар",
+          "uid" : "16ea134e5c4750fa",
+          "parentUid" : "747ee2721519c335b214547a19ef97c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184432933,
+            "stop" : 1622184505722,
+            "duration" : 72789
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Лист ожидания - Мультивыбор - Перенести в Корзину один / несколько товаров В НАЛИЧИИ",
+          "uid" : "40417552e6f2e556",
+          "parentUid" : "747ee2721519c335b214547a19ef97c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622184522503,
+            "stop" : 1622184544637,
+            "duration" : 22134
+          },
+          "flaky" : false,
+          "parameters" : [ "[CatalogItem(vendorCode=4288666), CatalogItem(vendorCode=4721282)]" ]
+        }, {
+          "name" : "Лист ожидания - Иконка 'В корзину' на КТ + в Корзине уже есть данный товар",
+          "uid" : "821b3f56637a537d",
+          "parentUid" : "747ee2721519c335b214547a19ef97c6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1622184561981,
+            "stop" : 1622184673847,
+            "duration" : 111866
+          },
+          "flaky" : false,
+          "parameters" : [ "CatalogItem(vendorCode=4288666)" ]
+        } ],
+        "uid" : "747ee2721519c335b214547a19ef97c6"
+      } ],
+      "uid" : "d63915ea4e9f7fecd1a677ef418fd33d"
+    } ],
+    "uid" : "f014bcf414dd151393b93f2a910b43fd"
+  } ]
+}
