@@ -3,7 +3,7 @@ LIVE::Пример сгенерированного отчета: https://drukpa
 STAGE:
 ## Запуск
 Самый простой способ запуска тестов - через WEB интерфейс:
-http://mobile.git.wildberries.ru/site-tests/
+http://mobile.git.(domain).ru/site-tests/
 
 ![Screenshot](report/static/img/wildberries-tests-run.png)
 
@@ -56,7 +56,7 @@ LOCAL=http://localhost:3000
 
 **Примеры запуска локально**
 * `mvn clean test site`
-* `mvn clean test site -DenvUrl=https://by.wildberries.ru -Ddevice="Nexus 5" -DthreadCount=5 -Dlocale=BY -Dgroup=catalog,search`
+* `mvn clean test site -DenvUrl=https://by.(domain).ru -Ddevice="Nexus 5" -DthreadCount=5 -Dlocale=BY -Dgroup=catalog,search`
 
 ## GitLab Pipeline
 Глобальные переменные:
@@ -75,17 +75,17 @@ RUN_THREAD_COUNT: 1
 RUN_DEVICE: "Galaxy S5"
 ```
 Пайплайн запускается автоматически по триггерам:
-* Коммит или мерж в master ветку приложения (https://git.wildberries.ru/mobile/site)
-* Коммит или мерж в master ветку автотестов (https://git.wildberries.ru/mobile/site-tests)
+* Коммит или мерж в master ветку приложения (https://git.(domain).ru/mobile/site)
+* Коммит или мерж в master ветку автотестов (https://git.(domain).ru/mobile/site-tests)
 
 или вручную:
-* Через WEB интерфейс pages (http://mobile.git.wildberries.ru/site-tests)
-* Через WEB интерфейс Gitlab CI (https://git.wildberries.ru/mobile/site-tests/-/pipelines/new)
+* Через WEB интерфейс pages (http://mobile.git.(domain).ru/site-tests)
+* Через WEB интерфейс Gitlab CI (https://git.(domain).ru/mobile/site-tests/-/pipelines/new)
 
 ## Отчет
 **Постоянная ссылка на страницу отчетов:**
 
-http://mobile.git.wildberries.ru/site-tests
+http://mobile.git.(domain).ru/site-tests
 
 ![Screenshot](report/static/img/wildberries-tests-report.png)
 
@@ -130,5 +130,5 @@ without-auth
 ## Локализация и URL тестового окружения
 Маппинг локали и соответствующего ему тестового окружения описан в enum-е:
 ```
-ru.wildberries.enums.site.EnvironmentUrl
+ru.(domain).enums.site.EnvironmentUrl
 ```
